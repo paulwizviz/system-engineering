@@ -29,6 +29,7 @@ For working examples created by me, please refer to the following these links to
 * [CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
 * [MongoDB](https://github.com/paulwizviz/learn-mongodb)
 * [RedisDB](https://github.com/paulwizviz/learn-redis)
+* [SQL Databases](https://github.com/paulwizviz/learn-sql)
 
 ## Event driven architecture
 
