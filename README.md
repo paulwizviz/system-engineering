@@ -20,9 +20,16 @@ Please refer to [learn-container](https://github.com/paulwizviz/learn-container)
 
 ## Databases
 
-Please refer to [learn-db](https://github.com/paulwizviz/learn-db) where I illustrate features of different database technologies through use cases.
+Some useful general references about databases
 
-## Event driven technologies
+* [7 database paradigm](https://www.youtube.com/watch?v=W2Z7fbCLSTw)
+
+For working examples created by me, please refer to the following these links to working examples for:
+
+* [Learn CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
+* [Learn RedisDB](https://github.com/paulwizviz/learn-redis)
+
+## Event driven architecture
 
 Please refer to [learn-mqtt](https://github.com/paulwizviz/learn-mqtt) for my illustration of MQTT based event driven system.
 
@@ -30,14 +37,10 @@ Please refer to [learn-mqtt](https://github.com/paulwizviz/learn-mqtt) for my il
 
 Currently under development are a collection of uses cases, combining the abovementioned core technologies.
 
-## Disclaimers
-
-* The content of this project is intended for educational purpose only.
-* The content is constantly updated and items may be modified and removed without warning.
 
 ## Copyright
 
-Unless specificed copyright in this project are assigned as follows.
+Unless otherwise specificed, the copyrights all materials in this project are assigned as follows.
 
 Copyright 2022 Paul Sitoh
 
