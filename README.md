@@ -26,8 +26,9 @@ Some useful general references about databases
 
 For working examples created by me, please refer to the following these links to working examples for:
 
-* [Learn CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
-* [Learn RedisDB](https://github.com/paulwizviz/learn-redis)
+* [CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
+* [MongoDB](https://github.com/paulwizviz/learn-mongodb)
+* [RedisDB](https://github.com/paulwizviz/learn-redis)
 
 ## Event driven architecture
 
