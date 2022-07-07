@@ -17,7 +17,8 @@ Welcome to my collection of projects that I have created and references to proje
 
 ## Container technologies
 
-Please refer to [learn-container](https://github.com/paulwizviz/learn-container) where I illustrate feaures of container and container orchestration (docker-compose, kubernetes, etc) through use cases.
+* [Learn Docker](https://github.com/paulwizviz/learn-docker.git))
+* [Learn Kubernetes](https://github.com/paulwizviz/learn-k8s.git)
 
 ## Databases
 
