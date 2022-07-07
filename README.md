@@ -4,15 +4,16 @@ Welcome to my collection of projects that I have created and references to proje
 
 ## Topics covered
 
-* Algorithm design and implementation
+* Algorithm and performance analysis
 * Container technologies
 * Databases
 * Event driven technologies
 * Summary use cases
 
-## Algorithm design and implementation
+## Algorithm and performance analysis
 
-Please refer to [go-algo](https://github.com/paulwizviz/go-algo) for illustrations of my Go based implementation of algorithms and data models.
+* [Go Algorithm and data models](https://github.com/paulwizviz/go-algo) a collection of Go based implementation of algorithms and data models
+* [Performance measurement](https://github.com/paulwizviz/compute-performance.git) discuss technique to measure performance
 
 ## Container technologies
 
