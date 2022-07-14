@@ -1,19 +1,11 @@
 # Overview
 
-Welcome to my collection of projects that I have created and references to projects created by others to illustrate system engineering principles.
-
-## Topics covered
-
-* Algorithm and performance analysis
-* Container technologies
-* Databases
-* Event driven technologies
-* Summary use cases
+Welcome my project discussing topics related to system engineering.
 
 ## Algorithm and performance analysis
 
-* [Go Algorithm and data models](https://github.com/paulwizviz/go-algo) a collection of Go based implementation of algorithms and data models
-* [Performance measurement](https://github.com/paulwizviz/compute-performance.git) discuss technique to measure performance
+* [Go Algorithm and data models](https://github.com/paulwizviz/go-algo)
+* [Performance measurement](https://github.com/paulwizviz/compute-performance.git)
 
 ## Container technologies
 
@@ -22,26 +14,15 @@ Welcome to my collection of projects that I have created and references to proje
 
 ## Databases
 
-Educational materials:
-
-* [7 database paradigm](https://www.youtube.com/watch?v=W2Z7fbCLSTw)
-
-Working examples created by me:
-
 * [CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
 * [MongoDB](https://github.com/paulwizviz/learn-mongodb)
 * [RedisDB](https://github.com/paulwizviz/learn-redis)
 * [Key Value DB](https://github.com/paulwizviz/learn-keyvaluedb)
 * [SQL Databases](https://github.com/paulwizviz/learn-sql)
 
-## Event driven architecture
+## Event driven architecture:
 
-Please refer to [learn-mqtt](https://github.com/paulwizviz/learn-mqtt) for my illustration of MQTT based event driven system.
-
-## Summary use cases
-
-Currently under development are a collection of uses cases, combining the abovementioned core technologies.
-
+* [MQTT](https://github.com/paulwizviz/learn-mqtt)
 
 ## Copyright
 
