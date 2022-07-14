@@ -22,11 +22,11 @@ Welcome to my collection of projects that I have created and references to proje
 
 ## Databases
 
-Some useful general references about databases
+Educational materials:
 
 * [7 database paradigm](https://www.youtube.com/watch?v=W2Z7fbCLSTw)
 
-For working examples created by me, please refer to the following these links to working examples for:
+Working examples created by me:
 
 * [CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
 * [MongoDB](https://github.com/paulwizviz/learn-mongodb)
