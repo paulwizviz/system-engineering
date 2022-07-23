@@ -7,6 +7,10 @@ Welcome my project discussing topics related to system engineering.
 * [Go Algorithm and data models](https://github.com/paulwizviz/go-algo)
 * [Performance measurement](https://github.com/paulwizviz/compute-performance.git)
 
+## Cloud
+
+* [Learn Google Cloud Platform](https://github.com/paulwizviz/learn-gcp)
+
 ## Container technologies
 
 * [Learn Docker](https://github.com/paulwizviz/learn-docker.git)
