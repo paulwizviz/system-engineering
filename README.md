@@ -10,6 +10,8 @@ Welcome my project discussing topics related to system engineering.
 ## Cloud
 
 * [Learn Google Cloud Platform](https://github.com/paulwizviz/learn-gcp)
+* [Learn Amazon Web Services](https://github.com/paulwizviz/learn-aws)
+* Digital ocean
 
 ## Container technologies
 
