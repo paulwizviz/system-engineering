@@ -35,6 +35,12 @@ Welcome my project discussing topics related to system engineering.
 * [Cryptography](https://github.com/paulwizviz/learn-crypto)
 * [Security Frameworks](https://github.com/paulwizviz/learn-security)
 
+## Microservices
+
+Working examples:
+
+* [Go web](https://github.com/paulwizviz/go-web) - An example demonstrating an approach to combine ReactJS and Go app to produce native and container apps.
+
 ## Copyright
 
 Unless otherwise specificed, the copyrights all materials in this project are assigned as follows.
