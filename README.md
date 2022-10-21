@@ -28,7 +28,16 @@ Welcome my project discussing topics related to system engineering.
 
 ## Event driven technologies
 
+Concepts
+
+* [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
+* [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
+
+
+Technologies
+
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
+* [Kafka](https://github.com/paulwizviz/learn-kafka)
 
 ## Security
 
