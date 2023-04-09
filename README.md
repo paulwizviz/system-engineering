@@ -44,11 +44,12 @@ Technologies
 * [Cryptography](https://github.com/paulwizviz/learn-crypto)
 * [Security Frameworks](https://github.com/paulwizviz/learn-security)
 
-## Microservices
+## Summary Examples
 
-Working examples:
+The following are working examples demonstrating the use of techniques and technologies mentioned above. 
 
 * [Go web](https://github.com/paulwizviz/go-web) - An example demonstrating an approach to combine ReactJS and Go app to produce native and container apps.
+* [Lottery stats](https://github.com/paulwizviz/lotterystat) - An example demonstraing an end-to-end solution from backend to frontend coupled with the application of agile methodology
 
 ## Copyright
 
