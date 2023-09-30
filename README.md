@@ -10,6 +10,7 @@ My projects discussing topics related to system engineering that I encountered a
 ## Application Programming Interface (API) design
 
 * [GraphQL](https://github.com/paulwizviz/learn-graphql)
+* [GRPC and Protobuf](https://github.com/paulwizviz/protobuf-lib-template)
 
 ## Architectural patterns
 
