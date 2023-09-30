@@ -1,11 +1,19 @@
 # Overview
 
-Welcome my project discussing topics related to system engineering.
+My projects discussing topics related to system engineering that I encountered and worked on over my career.
 
 ## Algorithm and performance analysis
 
 * [Go Algorithm and data models](https://github.com/paulwizviz/go-algo)
 * [Performance measurement](https://github.com/paulwizviz/compute-performance.git)
+
+## Application Programming Interface (API) design
+
+* [GraphQL](https://github.com/paulwizviz/learn-graphql)
+
+## Architectural patterns
+
+* Command and Query Responsibility Segregation
 
 ## Cloud
 
@@ -43,6 +51,7 @@ Technologies
 
 * [Cryptography](https://github.com/paulwizviz/learn-crypto)
 * [Security Frameworks](https://github.com/paulwizviz/learn-security)
+* OAuth
 
 ## Summary Examples
 
