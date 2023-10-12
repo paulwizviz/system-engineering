@@ -9,8 +9,10 @@ My projects discussing topics related to system engineering that I encountered a
 
 ## Application Programming Interface (API) design
 
+* REST
 * [GraphQL](https://github.com/paulwizviz/learn-graphql)
 * [GRPC and Protobuf](https://github.com/paulwizviz/protobuf-lib-template)
+* OAuth
 
 ## Architectural patterns
 
@@ -52,7 +54,6 @@ Technologies
 
 * [Cryptography](https://github.com/paulwizviz/learn-crypto)
 * [Security Frameworks](https://github.com/paulwizviz/learn-security)
-* OAuth
 
 ## Summary Examples
 
