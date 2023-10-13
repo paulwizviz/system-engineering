@@ -9,7 +9,7 @@ My projects discussing topics related to system engineering that I encountered a
 
 ## Application Programming Interface (API) design
 
-* REST
+* [REST](https://github.com/paulwizviz/learn-rest)
 * [GraphQL](https://github.com/paulwizviz/learn-graphql)
 * [GRPC and Protobuf](https://github.com/paulwizviz/protobuf-lib-template)
 * OAuth
