@@ -13,6 +13,7 @@ My projects discussing topics related to system engineering that I encountered a
 * [GraphQL](https://github.com/paulwizviz/learn-graphql)
 * [GRPC and Protobuf](https://github.com/paulwizviz/protobuf-lib-template)
 * OAuth
+* JSON-RPC
 
 ## Architectural patterns
 
