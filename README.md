@@ -56,7 +56,9 @@ Concepts
 * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
 
 
-Technologies
+Topics
+
+Please refers to the following for detail descriptions:
 
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
 * [Kafka](https://github.com/paulwizviz/learn-kafka)
@@ -66,6 +68,10 @@ Technologies
 The topics in this section are categorised to reflect the OSI model:
 
 ![OSI Model](./images/OSI-7-layers.jpg)
+
+Concepts
+
+* [What is OSI Model | Real World Examples ](https://www.youtube.com/watch?v=0y6FtKsg6J4)
 
 ## Security
 
