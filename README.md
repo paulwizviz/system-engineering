@@ -61,6 +61,12 @@ Technologies
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
 * [Kafka](https://github.com/paulwizviz/learn-kafka)
 
+## Networking
+
+The topics in this section are categorised to reflect the OSI model:
+
+![OSI Model](./images/OSI-7-layers.jpg)
+
 ## Security
 
 * [Cryptography](https://github.com/paulwizviz/learn-crypto)
