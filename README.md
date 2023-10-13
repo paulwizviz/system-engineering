@@ -29,6 +29,17 @@ My projects discussing topics related to system engineering that I encountered a
 * [Docker](https://github.com/paulwizviz/learn-docker.git)
 * [Kubernetes](https://github.com/paulwizviz/learn-k8s.git)
 
+## Distributed system
+
+This section was supposed to provide access to knowledge about distributed system design. However, I have lumped this topic under "blockchain". Please refer to [My Blockchain](https://github.com/paulwizviz/my-blockchain).
+
+The decision to lump discussion about distributed system and "blockchain" are:
+
+* There are some similarities between these two architectural paradigms;
+* Purely logistics so I can easily contrasts between the two paradigms.
+
+It is necessary to emphasise that traditional concept of "distributed" system is different from "decentralised" systems. The differences are not just in terms of vocabularies but also substance, albeit highly nuanced.
+
 ## Databases
 
 * [CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
