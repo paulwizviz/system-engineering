@@ -15,10 +15,6 @@ My projects discussing topics related to system engineering that I encountered a
 * OAuth
 * [REST](https://github.com/paulwizviz/learn-rest)
 
-## Architectural patterns
-
-* Command and Query Responsibility Segregation
-
 ## Cloud
 
 * [Learn Google Cloud Platform](https://github.com/paulwizviz/learn-gcp)
