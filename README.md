@@ -9,6 +9,15 @@ My projects discussing topics related to system engineering that I encountered a
 
 ## Application Programming Interface (API) design
 
+<u>Two general's problem</u>
+
+The two general's problem is an thought experiment to illustrate problems encountered when you have two systems communicating with each other. 
+
+[The Two Generals’ Problem](https://www.youtube.com/watch?v=IP-rGJKSZ3s)
+[Distributed Systems 2.1: The two generals problem](https://www.youtube.com/watch?v=MDuWnzVnfpI)
+
+<u>Messaging protocols</u>
+
 * [GraphQL](https://github.com/paulwizviz/learn-graphql)
 * [GRPC and Protobuf](https://github.com/paulwizviz/protobuf-lib-template)
 * [JSON-RPC](https://github.com/paulwizviz/learn-jsonrpc.git)
@@ -29,16 +38,28 @@ A container technology is a lightweight, executable unit of software that packs 
 * [Docker](https://github.com/paulwizviz/learn-docker.git)
 * [Kubernetes](https://github.com/paulwizviz/learn-k8s.git)
 
-## Distributed system
+## Distributed and decentralized systems
 
-This section was supposed to provide access to knowledge about distributed system design. However, I have lumped this topic under "blockchain". Please refer to [My Blockchain](https://github.com/paulwizviz/my-blockchain).
+Technically, a decentralised system is a type of distributed system. They have similar characteristics:
 
-The decision to lump discussion about distributed system and "blockchain" are:
+1. Computation are distributed across multiple nodes.
+1. They are susceptable to Byzantine faults.
 
-* There are some similarities between these two architectural paradigms;
-* Purely logistics so I can easily contrasts between the two paradigms.
+The differences between a distributed and a decentralised system are:
 
-It is necessary to emphasise that traditional concept of "distributed" system is different from "decentralised" systems. The differences are not just in terms of vocabularies but also substance, albeit highly nuanced.
+1. Distributed systems have a degree of centralised oversight, so Byzantine faults are largely mitigated.
+1. Decentralised systems have nodes that are independently managed and are highly subsceptable to Byzantine faults. 
+
+<u>Distributed system architectural pattern</u>
+
+* [Top 7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE)
+* Please refer to the section named "Application Programming Interface (API) design" for detailed references
+* [Microservices architectural pattern](https://github.com/paulwizviz/learn-microservices)
+
+<u>Decentralized systems</u>
+
+This type of architectural system is related blockchain. Please refer to [My Blockchain](https://github.com/paulwizviz/my-blockchain).
+
 
 ## Databases
 
