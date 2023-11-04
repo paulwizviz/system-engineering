@@ -105,6 +105,7 @@ The following are working examples demonstrating the use of techniques and techn
 
 * [Go web](https://github.com/paulwizviz/go-web) - An example demonstrating an approach to combine ReactJS and Go app to produce native and container apps.
 * [Lottery stats](https://github.com/paulwizviz/lotterystat) - An example demonstraing an end-to-end solution from backend to frontend coupled with the application of agile methodology
+* [Supply chain with blockchain](https://github.com/paulwizviz/mengawas) - Examples demonstrating the use of IoT and Blockchain
 
 ## Copyright
 
