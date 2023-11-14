@@ -94,6 +94,10 @@ The topics in this section are categorised to reflect the OSI model:
 
 * [What is OSI Model | Real World Examples ](https://www.youtube.com/watch?v=0y6FtKsg6J4)
 
+<u>Network Patterns</u>
+
+* [Peer to peer](https//github.com/paulwizviz/learn-p2p.git)
+
 ## Security
 
 * [Cryptography](https://github.com/paulwizviz/learn-crypto)
