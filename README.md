@@ -71,13 +71,13 @@ This type of architectural system is related blockchain. Please refer to [My Blo
 
 ## Event driven technologies
 
-Concepts
+<u>Concepts</u>
 
 * [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
 * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
 
 
-Topics
+<u>Topics</u>
 
 Please refers to the following for detail descriptions:
 
@@ -90,7 +90,7 @@ The topics in this section are categorised to reflect the OSI model:
 
 ![OSI Model](./images/OSI-7-layers.jpg)
 
-Concepts
+<u>Concepts</u>
 
 * [What is OSI Model | Real World Examples ](https://www.youtube.com/watch?v=0y6FtKsg6J4)
 
