@@ -60,7 +60,6 @@ The differences between a distributed and a decentralised system are:
 
 This type of architectural system is related blockchain. Please refer to [My Blockchain](https://github.com/paulwizviz/my-blockchain).
 
-
 ## Databases
 
 * [CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
@@ -83,6 +82,12 @@ Please refers to the following for detail descriptions:
 
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
 * [Kafka](https://github.com/paulwizviz/learn-kafka)
+
+## AI
+
+<u>Large Language Model</u>
+
+* [Learn LLM API](https://github.com/paulwizviz/learn-llm-api.git) - This is my project sharing my experience on writing apps to interact with Large Language Model
 
 ## Networking
 
