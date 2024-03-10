@@ -9,14 +9,7 @@ My projects discussing topics related to system engineering that I encountered a
 
 ## Application Programming Interface (API) design
 
-<u>Two general's problem</u>
-
-The two general's problem is an thought experiment to illustrate problems encountered when you have two systems communicating with each other. 
-
-[The Two Generals’ Problem](https://www.youtube.com/watch?v=IP-rGJKSZ3s)
-[Distributed Systems 2.1: The two generals problem](https://www.youtube.com/watch?v=MDuWnzVnfpI)
-
-<u>Messaging protocols</u>
+The following are a list of messaging protocols:
 
 * [GraphQL](https://github.com/paulwizviz/learn-graphql)
 * [GRPC and Protobuf](https://github.com/paulwizviz/protobuf-lib-template)
@@ -70,15 +63,12 @@ This type of architectural system is related blockchain. Please refer to [My Blo
 
 ## Event driven technologies
 
-<u>Concepts</u>
+Here are references to concepts behind event driven technologies:
 
 * [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
 * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
 
-
-<u>Topics</u>
-
-Please refers to the following for detail descriptions:
+The following are programming techniques:
 
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
 * [Kafka](https://github.com/paulwizviz/learn-kafka)
@@ -95,13 +85,12 @@ The topics in this section are categorised to reflect the OSI model:
 
 ![OSI Model](./images/OSI-7-layers.jpg)
 
-<u>Concepts</u>
-
+Please refer to the following 
 * [What is OSI Model | Real World Examples ](https://www.youtube.com/watch?v=0y6FtKsg6J4)
 
-<u>Network Patterns</u>
+Here are examples of network programming:
 
-* [Peer to peer](https//github.com/paulwizviz/learn-p2p.git)
+* [Go network programming](https://github.com/paulwizviz/go-networking.git)
 
 ## Security
 
