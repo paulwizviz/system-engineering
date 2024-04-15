@@ -25,31 +25,41 @@ The following are a list of messaging protocols:
 
 ## Container technologies
 
-A container technology is a lightweight, executable unit of software that packs up application code and dependencies such as binary code, libraries, and configuration files for easy deployment across different computing environments[1](https://www.solarwinds.com/resources/it-glossary/container).
+Containers are technologies that allow the packaging and isolation of applications with their entire runtime environment, all of the files, necessary to run.
 
-* [General container](https://github.com/paulwizviz/learn-container) - This cover technologies that is not based on Docker technologies and alternative approach to packaging applications into containers.
+Virtualisations provides similar goals but it is different from containers. Here is a summary of the differences by [Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization):
+
+![vm vs containers](./assets/img//vm-vs-containers.png)
+
+Please refer to the following for specific container technologies.
+
+* `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.
+    * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
+    * [Working examples](./examples/chroot/jailer.sh)
 * [Docker](https://github.com/paulwizviz/learn-docker.git)
 * [Kubernetes](https://github.com/paulwizviz/learn-k8s.git)
 
+### References
+
+[What Is Container Technology?](https://www.solarwinds.com/resources/it-glossary/container) - A container is a lightweight package that includes code and dependencies together.
+
 ## Distributed and decentralized systems
 
-Technically, a decentralised system is a type of distributed system. They have similar characteristics:
+A distributed system is a type of application where processes is distributed across multiple platforms or nodes. However, it is worth noting that there is a kind of distributed system that have developed of based on a peer-to-peer architecture, which I shall refer to as a decentralised system. 
 
-1. Computation are distributed across multiple nodes.
-1. They are susceptable to Byzantine faults.
+The differences between a distributed and decentralised system are:
 
-The differences between a distributed and a decentralised system are:
-
-1. Distributed systems have a degree of centralised oversight, so Byzantine faults are largely mitigated.
+1. Distributed systems have a degree of centralised oversight, so [Byzantine faults](https://en.wikipedia.org/wiki/Byzantine_fault) are largely mitigated.
 1. Decentralised systems have nodes that are independently managed and are highly subsceptable to Byzantine faults. 
 
-<u>Distributed system architectural pattern</u>
+
+### Distributed system architectural pattern
 
 * [Top 7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE)
 * Please refer to the section named "Application Programming Interface (API) design" for detailed references
 * [Microservices architectural pattern](https://github.com/paulwizviz/learn-microservices)
 
-<u>Decentralized systems</u>
+### Decentralized systems
 
 This type of architectural system is related blockchain. Please refer to [My Blockchain](https://github.com/paulwizviz/my-blockchain).
 
@@ -81,16 +91,13 @@ The following are programming techniques:
 
 ## Networking
 
-The topics in this section are categorised to reflect the OSI model:
+The mental model to explain network operation is the OSI model.
 
-![OSI Model](./images/OSI-7-layers.jpg)
+![OSI Model](./assets/img/OSI-7-layers.jpg)
 
-Please refer to the following 
-* [What is OSI Model | Real World Examples ](https://www.youtube.com/watch?v=0y6FtKsg6J4)
+To appreciate the working of networking concepts, please refer to [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 
-Here are examples of network programming:
-
-* [Go network programming](https://github.com/paulwizviz/go-networking.git)
+Please also refer to my [Go network programming](https://github.com/paulwizviz/go-networking.git) for working example.
 
 ## Security
 
@@ -105,13 +112,6 @@ The following are working examples demonstrating the use of techniques and techn
 * [Lottery stats](https://github.com/paulwizviz/lotterystat) - An example demonstraing an end-to-end solution from backend to frontend coupled with the application of agile methodology
 * [Supply chain with blockchain](https://github.com/paulwizviz/mengawas) - Examples demonstrating the use of IoT and Blockchain
 
-## Copyright
+## Disclaimers
 
-Unless otherwise specificed, the copyrights all materials in this project are assigned as follows.
-
-Copyright 2022 Paul Sitoh
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+The content in this project are intended for educational purposes and is subject to changes without notice.
