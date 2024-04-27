@@ -17,12 +17,6 @@ The following are a list of messaging protocols:
 * OAuth
 * [REST](https://github.com/paulwizviz/learn-rest)
 
-## Cloud
-
-* [Learn Google Cloud Platform](https://github.com/paulwizviz/learn-gcp)
-* [Learn Amazon Web Services](https://github.com/paulwizviz/learn-aws)
-* Digital ocean
-
 ## Container technologies
 
 Containers are technologies that allow the packaging and isolation of applications with their entire runtime environment, all of the files, necessary to run.
@@ -82,12 +76,6 @@ The following are programming techniques:
 
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
 * [Kafka](https://github.com/paulwizviz/learn-kafka)
-
-## AI
-
-<u>Large Language Model</u>
-
-* [Learn LLM API](https://github.com/paulwizviz/learn-llm-api.git) - This is my project sharing my experience on writing apps to interact with Large Language Model
 
 ## Networking
 
