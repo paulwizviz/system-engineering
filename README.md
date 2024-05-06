@@ -90,7 +90,10 @@ The mental model to explain network operation is the OSI model.
 
 ![OSI Model](./assets/img/OSI-7-layers.jpg)
 
-To appreciate the working of networking concepts, please refer to [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+To appreciate the working of networking concepts, please refer to the following:
+
+* [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi).
+* [Software Networking and Interfaces on Linux: Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
 
 Please also refer to my [Go network programming](https://github.com/paulwizviz/go-networking.git) for working example.
 
