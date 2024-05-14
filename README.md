@@ -91,7 +91,7 @@ The OSI model.
 
 ![OSI Model](./assets/img/OSI-7-layers.jpg)
 
-### Useful concepts
+### Concepts
 
 * [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi).
 * [Software Networking and Interfaces on Linux: Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
