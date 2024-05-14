@@ -5,10 +5,17 @@ This project contains:
 * References aspects of system engineering concepts and principles.
 * Links to working examples created by me to illustrate application of system engineering principles.
 
-## Algorithm and Performance Analysis
+## Algorithms and Performance Analysis
 
-* [Go Algorithm and data models](https://github.com/paulwizviz/go-algorithm)
-* [Performance measurement](https://github.com/paulwizviz/compute-performance.git)
+References to concepts and my working examples related to algorithms and performance analysis.
+
+### Concepts
+* [Algorithms and Data Structures Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=8hly31xKli0)
+* [A beginner's guide to Big O Notation](https://robbell.io/2009/06/a-beginners-guide-to-big-o-notation)
+
+### My working examples
+* [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)
+* [Go performance measurement](https://github.com/paulwizviz/go-performance.git)
 
 ## Container Technologies
 
