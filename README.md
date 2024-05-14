@@ -7,7 +7,7 @@ This project contains:
 
 ## Algorithm and Performance Analysis
 
-* [Go Algorithm and data models](https://github.com/paulwizviz/go-algo)
+* [Go Algorithm and data models](https://github.com/paulwizviz/go-algorithm)
 * [Performance measurement](https://github.com/paulwizviz/compute-performance.git)
 
 ## Container Technologies
