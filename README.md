@@ -35,10 +35,14 @@ Containers are technologies that allow the packaging and isolation of applicatio
 
 * Docker
     * [Useful references](./docs/docker.md)
-    * [My working examples](https://github.com/paulwizviz/learn-docker.git)
-
+    * [My working examples](https://github.com/paulwizviz/go-docker.git)
 * Kubernetes
-    * [My working examples](https://github.com/paulwizviz/learn-k8s.git)
+    * Concepts
+        * [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+        * [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
+        * [Working with Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
+        * [Cluster Architecture](https://kubernetes.io/docs/concepts/architecture/)
+    * [My working examples](https://github.com/paulwizviz/go-k8s.git)
 
 ## Distributed and Decentralized Systems
 
