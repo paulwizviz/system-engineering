@@ -76,14 +76,25 @@ Here we'll focus on centralised version.
 
 ## Databases
 
-* NoSQL
-    * [CockroachDB](https://github.com/paulwizviz/learn-cockroachdb)
-    * [MongoDB](https://github.com/paulwizviz/learn-mongodb)
-    * [RedisDB](https://github.com/paulwizviz/learn-redis)
-    * [Key Value DB](https://github.com/paulwizviz/learn-keyvaluedb)
-* [SQL Databases](https://github.com/paulwizviz/learn-sql)
+There are broadly two categorise of databases: NoSQL and SQL databases.
 
+### NoSQL
+    
+* Concepts
+    * [What is NoSQL?](https://www.mongodb.com/resources/basics/databases/nosql-explained)
+* My working examples:
+    * [go-cockroachdb](https://github.com/paulwizviz/go-cockroachdb)
+    * [go-mongodb](https://github.com/paulwizviz/go-mongodb)
+    * [go-redis](https://github.com/paulwizviz/go-redis)
+    * [go-keyvaluedb](https://github.com/paulwizviz/go-keyvaluedb)
 
+### SQL databases
+
+* Concepts
+    * [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+    * [SQLite vs MySQL vs PostgreSQL: A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+* My working examples
+    * [go-sql](https://github.com/paulwizviz/go-sql)
 
 ## Networking
 
