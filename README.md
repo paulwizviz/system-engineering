@@ -65,8 +65,7 @@ Here we'll focus on centralised version.
 * REST
     * [Concepts](./docs/rest.md)
 * MQTT
-    * Concepts:
-        * [Official documentation](https://mqtt.org/)
+    * [Concepts](./docs/mqtt.md)
     * My working examples:
         * [go-mqtt](https://github.com/paulwizviz/go-mqtt)
 * Kafka
