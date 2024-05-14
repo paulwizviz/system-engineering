@@ -87,7 +87,7 @@ Here we'll focus on centralised version.
 
 ## Networking
 
-Here we discuss technologies related to networking with a focusing on layer 1 to layer 4 of the OSI model.
+Here we discuss technologies related to networking, with a focusing on layer 1 to 4 of the OSI model.
 
 ![OSI Model](./assets/img/OSI-7-layers.jpg)
 
