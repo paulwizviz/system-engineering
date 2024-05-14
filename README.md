@@ -87,7 +87,7 @@ Here we'll focus on centralised version.
 
 ## Networking
 
-The OSI model.
+Here we discuss technologies related to networking with a focusing on layer 1 to layer 4 of the OSI model.
 
 ![OSI Model](./assets/img/OSI-7-layers.jpg)
 
@@ -96,10 +96,9 @@ The OSI model.
 * [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi).
 * [Software Networking and Interfaces on Linux: Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
 
-### Working examples
+### My working examples
 
-Please refer to my working examples.
-* [Go](https://github.com/paulwizviz/go-networking.git)
+* [go-networking](https://github.com/paulwizviz/go-networking.git)
 
 ## Cryptography and Security
 
