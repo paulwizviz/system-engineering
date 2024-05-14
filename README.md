@@ -75,8 +75,8 @@ Blockchain based systems are best described as decentralized systems. In this ca
 
 Types of IPCs:
 
-* Request-Response
-* Event driven
+* Request-Response.
+* Event driven.
 
 ### Request-Response model
 
@@ -93,7 +93,8 @@ Types of IPCs:
 ### Messaging Technologies 
 
 * MQTT
-    * [Useful references](./docs/mqtt.md)
+    * Concepts:
+        * [Official documentation](https://mqtt.org/)
     * My working examples:
         * [Go](https://github.com/paulwizviz/go-mqtt)
 
