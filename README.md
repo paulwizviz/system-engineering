@@ -40,26 +40,39 @@ Containers are technologies that allow the packaging and isolation of applicatio
 * Kubernetes
     * [My working examples](https://github.com/paulwizviz/learn-k8s.git)
 
-## Distributed and decentralized systems
+## Distributed and Decentralized Systems
 
-A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are, broadly speaking, two types of distributed systems:
+A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of distributed system: centralised and decentralised. We'll discuss the decentralized version in [my blockchain project](https://github.com/paulwizviz/my-blockchain).
 
-* Client-server.
-* Peer-to-peer.
+Here we'll focus on centralised version.
 
-For more information about distributed system, please refer to [Top 7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE)
+### Architectural patterns
 
-### Client-server architectural pattern
+* Concepts
+    * [Microservices explained - the What, Why and How?](https://www.youtube.com/watch?v=rv4LlmLmVWk).
+    * [7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE).
+    * [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
+    * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
 
-In this pattern, your have the server responsible for doing much of the heavy load of processing data. The client, which could be as thin as a browser, that performs minimal processing. The server component could be divided into small processing units that talks to each other, typically, like mini client-server patterns. See [Microservices architectural pattern](https://github.com/paulwizviz/learn-microservices).
+### Communication patterns
 
-This type of pattern typically involves a degree of centralised oversight of the server end.
-
-### Peer-to-peer architectural pattern
-
-This pattern typically involves computation nodes acting both as a client and a server. This is a pattern more commonly, but not exclusively, found in systems that uses blockchain.
-
-Blockchain based systems are best described as decentralized systems. In this case, every nodes are independently managed.  Please refer to [My Blockchain](https://github.com/paulwizviz/my-blockchain) for further discussion on this type of pattern.
+* GraphQL
+    * My working examples:
+        * [graphql-template](https://github.com/paulwizviz/graphql-template)
+* GRPC and Protobuf
+    * My working examples:
+        * [Protobuf template](https://github.com/paulwizviz/protobuf-lib-template)
+* REST
+    * [Concepts](./docs/rest.md)
+* MQTT
+    * Concepts:
+        * [Official documentation](https://mqtt.org/)
+    * My working examples:
+        * [go-mqtt](https://github.com/paulwizviz/go-mqtt)
+* Kafka
+    * [Concepts](./docs/kafka.md)
+    * My working examples:
+        * [go-kafka](https://github.com/paulwizviz/go-kafka)
 
 ## Databases
 
@@ -71,37 +84,6 @@ Blockchain based systems are best described as decentralized systems. In this ca
 * [SQL Databases](https://github.com/paulwizviz/learn-sql)
 
 
-## Interprocess Communications (IPCs)
-
-Types of IPCs:
-
-* Request-Response.
-* Event driven.
-
-### Request-Response model
-
-* [GraphQL](https://github.com/paulwizviz/learn-graphql)
-* [GRPC and Protobuf](https://github.com/paulwizviz/protobuf-lib-template)
-* [JSON-RPC](https://github.com/paulwizviz/learn-jsonrpc.git)
-* [REST](https://github.com/paulwizviz/learn-rest)
-
-### Event driven model
-
-* [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
-* [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
-
-### Messaging Technologies 
-
-* MQTT
-    * Concepts:
-        * [Official documentation](https://mqtt.org/)
-    * My working examples:
-        * [Go](https://github.com/paulwizviz/go-mqtt)
-
-* Kafka
-    * [Useful references](./docs/kafka.md)
-    * My working examples:
-        * [Go](https://github.com/paulwizviz/go-kafka)
 
 ## Networking
 
