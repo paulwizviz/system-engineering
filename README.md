@@ -1,6 +1,9 @@
 # Overview
 
-My projects discussing topics related to system engineering that I encountered and worked on over my career.
+This project contains:
+
+* References aspects of system engineering concepts and principles.
+* Links to working examples created by me to illustrate application of system engineering principles.
 
 ## Algorithm and Performance Analysis
 
@@ -11,21 +14,24 @@ My projects discussing topics related to system engineering that I encountered a
 
 Containers are technologies that allow the packaging and isolation of applications with their entire runtime environment, all of the files, necessary to run.
 
-Virtualisations provides similar goals but it is different from containers. Here is a summary of the differences by [Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization):
+### Concepts
 
+* [What Is Container Technology?](https://www.solarwinds.com/resources/it-glossary/container)
+* [Containers vs Virtualization by Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization):
 ![vm vs containers](./assets/img//vm-vs-containers.png)
 
-Please refer to the following for specific container technologies.
+### Types
 
-* `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.
+* `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.  
     * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
     * [Working examples](./examples/chroot/jailer.sh)
-* [Docker](https://github.com/paulwizviz/learn-docker.git)
-* [Kubernetes](https://github.com/paulwizviz/learn-k8s.git)
 
-### References
+* Docker
+    * [Useful references](./docs/docker.md)
+    * [My working examples](https://github.com/paulwizviz/learn-docker.git)
 
-[What Is Container Technology?](https://www.solarwinds.com/resources/it-glossary/container) - A container is a lightweight package that includes code and dependencies together.
+* Kubernetes
+    * [My working examples](https://github.com/paulwizviz/learn-k8s.git)
 
 ## Distributed and decentralized systems
 
@@ -74,28 +80,37 @@ Types of IPCs:
 
 ### Event driven model
 
-Architectural patterns:
-
 * [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
 * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
 
-Messaging technologies:
+### Messaging Technologies 
 
-* [MQTT](https://github.com/paulwizviz/learn-mqtt)
-* [Kafka](https://github.com/paulwizviz/learn-kafka)
+* MQTT
+    * [Useful references](./docs/mqtt.md)
+    * My working examples:
+        * [Go](https://github.com/paulwizviz/go-mqtt)
+
+* Kafka
+    * [Useful references](./docs/kafka.md)
+    * My working examples:
+        * [Go](https://github.com/paulwizviz/go-kafka)
 
 ## Networking
 
-The mental model to explain network operation is the OSI model.
+The OSI model.
 
 ![OSI Model](./assets/img/OSI-7-layers.jpg)
 
-To appreciate the working of networking concepts, please refer to the following:
+### Useful concepts
 
 * [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi).
 * [Software Networking and Interfaces on Linux: Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
 
-Please also refer to my [Go network programming](https://github.com/paulwizviz/go-networking.git) for working example.
+### Working examples
+
+Please refer to my working examples.
+
+* [Go](https://github.com/paulwizviz/go-networking.git)
 
 ## Security
 
