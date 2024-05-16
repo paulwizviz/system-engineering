@@ -152,6 +152,8 @@ Here we discuss technologies related to networking, with a focusing on layer 1 t
 
 * [Deep Dive: The ip Command in Linux](https://www.youtube.com/watch?v=30mQ4fD5kMI)
 * [ifconfig mac](https://www.youtube.com/watch?v=4-5x7iLiVSg)
+* Libp2p programming library
+    * [libp2p-pubsub Peer Discovery with Kademlia DHT](https://medium.com/rahasak/libp2p-pubsub-peer-discovery-with-kademlia-dht-c8b131550ac7)
 
 ### My working examples
 
