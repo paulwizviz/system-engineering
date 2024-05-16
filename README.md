@@ -108,7 +108,14 @@ Here we discuss technologies related to networking, with a focusing on layer 1 t
 ### Architecture
 
 * [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi).
-* [Software Networking and Interfaces on Linux: Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
+* Software Networking and Interfaces on Linux
+    * [Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
+    * [Part 2](https://www.youtube.com/watch?v=5WNEpE1vLvc)
+
+### Tools
+
+* [Deep Dive: The ip Command in Linux](https://www.youtube.com/watch?v=30mQ4fD5kMI)
+* [ifconfig mac](https://www.youtube.com/watch?v=4-5x7iLiVSg)
 
 ### My working examples
 
