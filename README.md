@@ -49,7 +49,7 @@ Containers are technologies that allow the packaging and isolation of applicatio
 
 ## Cryptography and Security
 
-Here we discuss all things related to cryptogrpahy and security
+Here we discuss all things related to cryptography and security
 
 ### Cryptography
 
