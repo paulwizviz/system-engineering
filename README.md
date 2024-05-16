@@ -1,6 +1,6 @@
 # Overview
 
-In this project, you will find my collection of references to concepts and my working examples related to the following topics:
+In this project, you will find my collection of references to concepts and working examples related to the following topics:
 
 * [Algorithms and Performance Analysis](#algorithms-and-performance-analysis)
 * [Container Technologies](#container-technologies)
