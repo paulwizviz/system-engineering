@@ -37,7 +37,7 @@ Containers are technologies that allow the packaging and isolation of applicatio
     * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
     * [Working examples](./examples/chroot/jailer.sh)
 * Docker
-    * [Useful references](./docs/docker.md)
+    * [References](./docs/docker.md)
     * [My working examples](https://github.com/paulwizviz/go-docker.git)
 * Kubernetes
     * Concepts
@@ -54,31 +54,31 @@ Here we discuss all things related to cryptogrpahy and security
 ### Cryptography
 
 * Asymetric
-    * [Concepts](./docs/asymetic.md)
+    * [References](./docs/asymetic.md)
     * My working examples:
-        * [go-crypto](https://github.com/paulwizviz/go-crypto)
+        * [https://github.com/paulwizviz/go-crypto](https://github.com/paulwizviz/go-crypto)
 * Modular Mathematics
     * [The Mathematics of Cryptography](https://www.youtube.com/watch?v=uNzaMrcuTM0)
     * [Modular Arithmetic Visually Explained](https://www.youtube.com/watch?v=lJ3CD9M3nEQ)
 * Symmetric
-    * [Concepts](./docs/symmetric.md)
+    * [References](./docs/symmetric.md)
     * My working examples:
-        * [go-crypto](https://github.com/paulwizviz/go-crypto)
+        * [https://github.com/paulwizviz/go-crypto](https://github.com/paulwizviz/go-crypto)
 
 ### Security
 
 * Digital certificates
-    * [Concepts](./docs/certs.md)
+    * [References](./docs/certs.md)
     * My working examples:
-        * [go-security](https://github.com/paulwizviz/go-security)
-* Public Key Infrastructure - A public key infrastructure (PKI) is a set of roles, policies, hardware, software and procedures needed to create, manage, distribute, use, store and revoke digital certificates and manage public-key encryption (Source: [wiki][https://en.wikipedia.org/wiki/Public_key_infrastructure]).
-    * Concepts
+        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
+* Public Key Infrastructure
+    * References
         * [PKI Components - CompTIA Security+ SY0-501 - 6.4](https://www.youtube.com/watch?v=3yuad7_bszE)
     * My working examples:
-        * [go-security](https://github.com/paulwizviz/go-security)
-* Transport Layer Security - Transport Layer Security (TLS), the successor of the now-deprecated Secure Sockets Layer (SSL), is a cryptographic protocol designed to provide communications security over a computer network. The protocol is widely used in applications such as email, instant messaging, and voice over IP, but its use in securing HTTPS remains the most publicly visible (Source: [wiki](https://en.wikipedia.org/wiki/Transport_Layer_Security))
+        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
+* Transport Layer Security
     * My working examples:
-        * [go-security](https://github.com/paulwizviz/go-security)
+        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
 
 ## Distributed and Decentralized Systems
 
