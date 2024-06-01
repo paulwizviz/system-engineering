@@ -3,6 +3,15 @@
 * [Architecture](#architecture)
 * [Tools](#tools)
 
+## Terms and Definitions
+
+| Term | Definition |
+| --- | --- |
+| Unicast addressing | Sending packets from one IP address to another IP address. |
+| Multicasting | Sending a single message to a group of nodes. |
+| Broadcasting | The ability to concurrently deliver a message to all IP address in a network. |
+
+
 ## Architecture
 
 * [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi).

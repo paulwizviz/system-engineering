@@ -38,14 +38,16 @@ Containers are technologies that allow the packaging and isolation of applicatio
     * [Working examples](./examples/chroot/jailer.sh)
 * Docker
     * [References](./docs/docker.md)
-    * [My working examples](https://github.com/paulwizviz/go-docker.git)
+    * My working examples:
+        * [Docker operations using Go](https://github.com/paulwizviz/go-docker.git)
 * Kubernetes
     * Concepts
         * [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
         * [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
         * [Working with Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
         * [Cluster Architecture](https://kubernetes.io/docs/concepts/architecture/)
-    * [My working examples](https://github.com/paulwizviz/go-k8s.git)
+    * My working examples:
+        * [Kubernetes and Go](https://github.com/paulwizviz/go-k8s.git)
 
 ## Cryptography and Security
 
