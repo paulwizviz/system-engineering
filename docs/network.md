@@ -18,6 +18,14 @@
 * Software Networking and Interfaces on Linux
     * [Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
     * [Part 2](https://www.youtube.com/watch?v=5WNEpE1vLvc)
+* OSI level vs Protocol
+
+| OSI level | Protocol |
+| --- | --- |
+| Level 7 - Application | HTTP,FTP,SMTP |
+| Level 4 - Transport | TCP,UDP |
+**Table 1:** OSI vs Protocol</br>
+
 
 ## Tools
 
