@@ -139,14 +139,43 @@ There are broadly two categorise of databases: NoSQL and SQL databases.
 
 ## Networking
 
-Here we discuss technologies related to networking, with a focusing on layer 1 to 4 of the OSI model.
+Here we discuss technologies related to networking concepts, tools and programming.
+
+### Concepts
+
+* [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+* Software Networking and Interfaces on Linux
+    * [Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
+    * [Part 2](https://www.youtube.com/watch?v=5WNEpE1vLvc)
+
+### OSI model
 
 ![OSI Model](./assets/img/OSI-7-layers.jpg)
 
-Topics:
+* Level 7
+    * HTTP, FTP and SMTP
+* Level 4
+    * TCP and UDP
+* Level 3
+    * IP and ARP
 
-* [References](./docs/network.md)
-* [go-networking](https://github.com/paulwizviz/go-networking.git)
+### Tools
+
+* [Deep Dive: The ip Command in Linux](https://www.youtube.com/watch?v=30mQ4fD5kMI)
+* [ifconfig mac](https://www.youtube.com/watch?v=4-5x7iLiVSg)
+
+## Network Working Group - RFC
+
+* [A TCP/IP Tutorial](https://www.ietf.org/rfc/rfc1180.txt)
+* [Internet Control Message Protocol](https://www.ietf.org/rfc/rfc792.txt)
+* [Transmission Control Protocol](https://www.ietf.org/rfc/rfc793.txt)
+* [User Datagram Protocol](https://www.ietf.org/rfc/rfc768.txt)
+
+### Programming
+
+* [libp2p-pubsub Peer Discovery with Kademlia DHT](https://medium.com/rahasak/libp2p-pubsub-peer-discovery-with-kademlia-dht-c8b131550ac7)
+* My working examples
+    * [https://github.com/paulwizviz/go-networking.git](https://github.com/paulwizviz/go-networking.git)
 
 ## Disclaimers
 
