@@ -75,6 +75,8 @@ Here we discuss all things related to cryptography and security
 ### Security
 
 * Checksum
+    * References:
+        * [Definition of checksum](https://www.techtarget.com/searchsecurity/definition/checksum)
     * My working examples:
         * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
 * Digital certificates
