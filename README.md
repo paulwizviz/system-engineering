@@ -54,7 +54,9 @@ Containers are technologies that allow the packaging and isolation of applicatio
 Here we discuss all things related to cryptography and security
 
 ### Cryptography
-
+ 
+ * Concepts
+    * [Cryptography Concepts - SY0-601 CompTIA Security+ : 2.8](https://www.youtube.com/watch?v=A6HNd1EGfIc)
 * Asymetric
     * [References](./docs/asymetic.md)
     * My working examples:
@@ -66,6 +68,9 @@ Here we discuss all things related to cryptography and security
     * [References](./docs/symmetric.md)
     * My working examples:
         * [https://github.com/paulwizviz/go-crypto](https://github.com/paulwizviz/go-crypto)
+* Stream and block ciphers
+    * [Streams and block ciphers](https://www.youtube.com/watch?v=7J2XbZNNF4A)
+    * [Block Cipher Modes - CompTIA Security+ SY0-501 - 6.2](https://www.youtube.com/watch?v=6rE-KlhBlq4)
 
 ### Security
 
