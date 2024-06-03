@@ -153,11 +153,15 @@ Here we discuss technologies related to networking concepts, tools and programmi
 ![OSI Model](./assets/img/OSI-7-layers.jpg)
 
 * Level 7
-    * HTTP, FTP and SMTP
+    * HTTP 
+    * FTP
+    * SMTP
 * Level 4
-    * TCP and UDP
+    * Transmission Control Protocol, TCP
+    * UDP
 * Level 3
-    * IP and ARP
+    * [Internet Protocol]((./docs/ip.md))
+    * ARP
 
 ### Tools
 
