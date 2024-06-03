@@ -28,7 +28,8 @@ Containers are technologies that allow the packaging and isolation of applicatio
 ### Concepts
 
 * [What Is Container Technology?](https://www.solarwinds.com/resources/it-glossary/container)
-* [Containers vs Virtualization by Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization):
+* [Containers vs Virtualization by Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization)
+
 ![vm vs containers](./assets/img//vm-vs-containers.png)
 
 ### Types
@@ -178,7 +179,7 @@ Here we discuss technologies related to networking concepts, tools and programmi
 * [Deep Dive: The ip Command in Linux](https://www.youtube.com/watch?v=30mQ4fD5kMI)
 * [ifconfig mac](https://www.youtube.com/watch?v=4-5x7iLiVSg)
 
-## Network Working Group - RFC
+### Network Working Group - RFC
 
 * [A TCP/IP Tutorial](https://www.ietf.org/rfc/rfc1180.txt)
 * [Internet Control Message Protocol](https://www.ietf.org/rfc/rfc792.txt)
