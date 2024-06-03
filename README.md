@@ -74,6 +74,9 @@ Here we discuss all things related to cryptography and security
 
 ### Security
 
+* Checksum
+    * My working examples:
+        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
 * Digital certificates
     * [References](./docs/certs.md)
     * My working examples:
