@@ -106,6 +106,8 @@ Here we'll focus on centralised version.
     * [7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE).
     * [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
     * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
+* My working examples
+    * [learn-microservices](https://github.com/paulwizviz/learn-microservices)
 
 ### Communication patterns
 
@@ -139,6 +141,7 @@ There are broadly two categorise of databases: NoSQL and SQL databases.
     * [go-mongodb](https://github.com/paulwizviz/go-mongodb)
     * [go-redis](https://github.com/paulwizviz/go-redis)
     * [go-keyvaluedb](https://github.com/paulwizviz/go-keyvaluedb)
+    * [learn-elastics](https://github.com/paulwizviz/learn-elastic)
 
 ### SQL databases
 
