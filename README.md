@@ -145,9 +145,8 @@ There are broadly two categorise of databases: NoSQL and SQL databases.
 
 ### SQL databases
 
-* Concepts
-    * [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
-    * [SQLite vs MySQL vs PostgreSQL: A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+For conceptual understanding please refer to my Git repository [learn-sql](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
+
 * My working examples
     * [go-sql](https://github.com/paulwizviz/go-sql)
 
