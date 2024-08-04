@@ -145,10 +145,7 @@ There are broadly two categorise of databases: NoSQL and SQL databases.
 
 ### SQL databases
 
-For conceptual understanding please refer to my Git repository [learn-sql](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
-
-* My working examples
-    * [go-sql](https://github.com/paulwizviz/go-sql)
+Refer to my Git repository [learn-sql](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
 
 ## Networking
 
