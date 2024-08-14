@@ -159,6 +159,8 @@ Abstract Syntax Notation One (ASN.1) is a standard interface description languag
     * [OSS Nokalva - ASN](https://www.oss.com/resources/resources.html)
     * [ASN1 Simple types](https://www.obj-sys.com/asn1tutorial/node10.html)
     * [A Layman's Guide to a Subset of ASN.1, BER, and DER](http://luca.ntop.org/Teaching/Appunti/asn1.html)
+* Working Examples
+    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
 
 ###  Base64
 
@@ -167,6 +169,8 @@ In computer programming, Base64 is a group of binary-to-text encoding schemes th
 * References
     * [The Base16, Base32, and Base64 Data Encodings](https://datatracker.ietf.org/doc/html/rfc4648)
     * [Base64](https://en.wikipedia.org/wiki/Base64)
+* Working Examples
+    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
 
 ### Ini File
 
@@ -174,6 +178,8 @@ A text based configuration file comprising of key value pair
 
 * References
     * [INI file](https://en.wikipedia.org/wiki/INI_file)
+* Working Examples
+    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
 
 ### The Concise Binary Object Representation (CBOR)
 
@@ -182,7 +188,8 @@ The Concise Binary Object Representation (CBOR) is a data format whose design go
 * References
     * [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
     * [CBOR](https://cbor.io/)
-
+* Working Examples
+    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
 
 ### Gob
 
@@ -190,6 +197,8 @@ This is a Go-specific data package for communicating between two servers written
 
 * References
     * [Gobs of data](https://go.dev/blog/gob)
+* Working Examples
+    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
 
 ### Tom's Obvious Minimal Language (TOML)
 
@@ -197,6 +206,8 @@ TOML is a minimal configuration file format that's easy to read due to obvious s
 
 * References
     * [Official Documentation](https://toml.io/en/)
+* Working Examples
+    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
 
 ### YAML Ain’t Markup Language (YAML)
 
@@ -204,6 +215,8 @@ YAML (a recursive acronym for “YAML Ain’t Markup Language”) is a data seri
 
 * References
     * [Official documentation](https://yaml.org/spec/1.2.2/)
+* Working Examples
+    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
 
 ## Networking
 
