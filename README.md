@@ -7,6 +7,7 @@ In this project, you will find my collection of references to concepts and worki
 * [Cryptography and Security](#cryptography-and-security)
 * [Distributed and Decentralized Systems](#distributed-and-decentralized-systems)
 * [Databases](#databases)
+* [Data Serialization](#data-serialization)
 * [Networking](#networking)
 
 ## Algorithms and Performance Analysis
@@ -52,7 +53,7 @@ Containers are technologies that allow the packaging and isolation of applicatio
 
 ## Cryptography and Security
 
-Here we discuss all things related to cryptography and security
+All things related to cryptography and security
 
 ### Cryptography
  
@@ -95,9 +96,7 @@ Here we discuss all things related to cryptography and security
 
 ## Distributed and Decentralized Systems
 
-A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of distributed system: centralised and decentralised. We'll discuss the decentralized version in [my blockchain project](https://github.com/paulwizviz/my-blockchain).
-
-Here we'll focus on centralised version.
+A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of distributed system: centralised and decentralised. For decentralized version refer to [my blockchain project](https://github.com/paulwizviz/my-blockchain). Here the focus is on centralised systems.
 
 ### Architectural patterns
 
@@ -130,7 +129,7 @@ Here we'll focus on centralised version.
 
 ## Databases
 
-There are broadly two categorise of databases: NoSQL and SQL databases.
+There are two categorise of databases: NoSQL and SQL databases.
 
 ### NoSQL
     
@@ -146,6 +145,54 @@ There are broadly two categorise of databases: NoSQL and SQL databases.
 ### SQL databases
 
 Refer to my Git repository [learn-sql](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
+
+## Data Serialization
+
+### Abstract Syntax Notation One (ASN.1)
+
+Abstract Syntax Notation One (ASN.1) is a standard interface description language for defining data structures that can be serialized and deserialized in a cross-platform way. It is broadly used in telecommunications and computer networking, and especially in cryptography.
+
+* References:
+    * [Introduction to ASN.1](https://www.itu.int/en/ITU-T/asn1/Pages/introduction.aspx)
+    * [OSS Nokalva - ASN](https://www.oss.com/resources/resources.html)
+    * [ASN1 Simple types](https://www.obj-sys.com/asn1tutorial/node10.html)
+    * [A Layman's Guide to a Subset of ASN.1, BER, and DER](http://luca.ntop.org/Teaching/Appunti/asn1.html)
+
+###  Base64
+
+In computer programming, Base64 is a group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits[wiki](https://en.wikipedia.org/wiki/Base64)).
+
+* References
+    * [The Base16, Base32, and Base64 Data Encodings](https://datatracker.ietf.org/doc/html/rfc4648)
+
+### Ini File
+
+A text based configuration file comprising of key value pair
+
+### The Concise Binary Object Representation (CBOR)
+
+The Concise Binary Object Representation (CBOR) -- RFC 8949-- is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation[CBOR](https://cbor.io/).
+
+### Gob
+
+This is a Go-specific data package for communicating between two servers written in Go.
+
+* References
+    * [Gobs of data](https://go.dev/blog/gob)
+
+### Tom's Obvious Minimal Language (TOML)
+
+TOML is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
+
+* References
+    * [Official Documentation](https://toml.io/en/)
+
+### YAML Ain’t Markup Language (YAML)
+
+YAML (a recursive acronym for “YAML Ain’t Markup Language”) is a data serialization language based on a the use of indentation. It is intended to be human readable.
+
+* References
+    * [Official documentation](https://yaml.org/spec/1.2.2/)
 
 ## Networking
 
