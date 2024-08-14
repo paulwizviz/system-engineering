@@ -148,6 +148,8 @@ Refer to my Git repository [learn-sql](https://github.com/paulwizviz/learn-sql) 
 
 ## Data Serialization
 
+This section discuss all things related to data encoding formats.
+
 ### Abstract Syntax Notation One (ASN.1)
 
 Abstract Syntax Notation One (ASN.1) is a standard interface description language for defining data structures that can be serialized and deserialized in a cross-platform way. It is broadly used in telecommunications and computer networking, and especially in cryptography.
@@ -160,18 +162,27 @@ Abstract Syntax Notation One (ASN.1) is a standard interface description languag
 
 ###  Base64
 
-In computer programming, Base64 is a group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits[wiki](https://en.wikipedia.org/wiki/Base64)).
+In computer programming, Base64 is a group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits.
 
 * References
     * [The Base16, Base32, and Base64 Data Encodings](https://datatracker.ietf.org/doc/html/rfc4648)
+    * [Base64](https://en.wikipedia.org/wiki/Base64)
 
 ### Ini File
 
 A text based configuration file comprising of key value pair
 
+* References
+    * [INI file](https://en.wikipedia.org/wiki/INI_file)
+
 ### The Concise Binary Object Representation (CBOR)
 
-The Concise Binary Object Representation (CBOR) -- RFC 8949-- is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation[CBOR](https://cbor.io/).
+The Concise Binary Object Representation (CBOR) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.
+
+* References
+    * [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
+    * [CBOR](https://cbor.io/)
+
 
 ### Gob
 
