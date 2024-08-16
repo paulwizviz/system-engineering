@@ -158,6 +158,7 @@ Abstract Syntax Notation One (ASN.1) is a standard interface description languag
     * [Introduction to ASN.1](https://www.itu.int/en/ITU-T/asn1/Pages/introduction.aspx)
     * [A Warm Welcome to ASN.1 and DER](https://letsencrypt.org/docs/a-warm-welcome-to-asn1-and-der/)
     * [OSS Nokalva - ASN](https://www.oss.com/resources/resources.html)
+    * [ASN.1 Quick Reference](https://www.oss.com/asn1/resources/asn1-made-simple/asn1-quick-reference.html)
     * [ASN1 Simple types](https://www.obj-sys.com/asn1tutorial/node10.html)
     * [A Layman's Guide to a Subset of ASN.1, BER, and DER](http://luca.ntop.org/Teaching/Appunti/asn1.html)
 * Working Examples
