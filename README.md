@@ -327,6 +327,13 @@ Here we discuss technologies related to networking concepts, tools and programmi
 * My working examples
     * [https://github.com/paulwizviz/go-networking.git](https://github.com/paulwizviz/go-networking.git)
 
+### Summary Projects
+
+The following are projects building applications that combines the concepts covered here.
+
+* [lotterystat](https://github.com/paulwizviz/lotterystat.git) -- this project demonstrate SQL data integrations and Go concurrency patterns.
+* [datalake](https://github.com/paulwizviz/datalake.git) -- this project demonstrates an application using PSQL, GRPC and integration with AWS S3 storage.
+
 ## Disclaimers
 
 The content in this project is intended for educational purposes and is subject to changes without notice.
