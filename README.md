@@ -56,6 +56,8 @@ Containers are technologies that allow the packaging and isolation of applicatio
 All things related to cryptography and security
 
 ### Cryptography
+
+Techniques to encrypt, decrypt and verify data.
  
  * Concepts
     * [Cryptography Concepts - SY0-601 CompTIA Security+ : 2.8](https://www.youtube.com/watch?v=A6HNd1EGfIc)
@@ -75,6 +77,8 @@ All things related to cryptography and security
     * [Block Cipher Modes - CompTIA Security+ SY0-501 - 6.2](https://www.youtube.com/watch?v=6rE-KlhBlq4)
 
 ### Security
+
+The application of cryptographic techniques to support secure computation.
 
 * Checksum
     * References:
