@@ -100,7 +100,9 @@ The application of cryptographic techniques to support secure computation.
 
 ## Distributed and Decentralized Systems
 
-A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of distributed system: centralised and decentralised. For decentralized version refer to [my blockchain project](https://github.com/paulwizviz/my-blockchain). Here the focus is on centralised systems.
+A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of 
+distributed system: centralised and decentralised. For decentralized version refer to [my blockchain project](https://github.com/paulwizviz/my-blockchain). Here the 
+focus is on centralised systems.
 
 ### Architectural patterns
 
