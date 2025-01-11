@@ -8,7 +8,7 @@ The OSI model is a theoretical stack describing how applications and devices com
 
 The protocols in this layer are:
 
-* [Internet Protocol](#internet-protocol)
+* [Internet Protocol](./ip.md)
 * ARP
 
 ## Level 4 - Transport Layer
