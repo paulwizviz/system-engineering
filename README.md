@@ -1,14 +1,31 @@
 # Overview
 
-In this project, you will find my collection of references to concepts and working examples related to the following topics:
+Here you find references to:
 
-* [Algorithms and Performance Analysis](#algorithms-and-performance-analysis)
-* [Container Technologies](#container-technologies)
-* [Cryptography and Security](#cryptography-and-security)
-* [Distributed and Decentralized Systems](#distributed-and-decentralized-systems)
-* [Databases](#databases)
-* [Data Serialization](#data-serialization)
-* [Networking](#networking)
+* My Working examples 
+    * [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)
+    * [Kubernetes and Go](https://github.com/paulwizviz/go-k8s.git)
+    * [Examples using Go for cryptographic programming](https://github.com/paulwizviz/go-crypto)
+    * [Examples using Go implementing security](https://github.com/paulwizviz/go-security)
+    * [Examples of microservices implemented in Go](https://github.com/paulwizviz/learn-microservices)
+    * [GraphQL implementation in Go](https://github.com/paulwizviz/graphql-template)
+    * [Protobuf teamplates](https://github.com/paulwizviz/protobuf-lib-template)
+    * [MQTT for Go programming](https://github.com/paulwizviz/go-mqtt)
+    * [Kafka for Go programming](https://github.com/paulwizviz/go-kafka)
+    * [Cockroach DB for Go programming](https://github.com/paulwizviz/go-cockroachdb)
+    * [Mongodb for Go programming](https://github.com/paulwizviz/go-mongodb)
+    * [Redis for Go programming](https://github.com/paulwizviz/go-redis)
+    * [Elastics for Go programming](https://github.com/paulwizviz/learn-elastic)
+    * [Examples of serialization in Go](https://github.com/paulwizviz/go-serialization.git)
+    * [Network programming in Go](https://github.com/paulwizviz/go-networking.git)
+* Concepts
+    * [Algorithms and Performance Analysis](#algorithms-and-performance-analysis)
+    * [Container Technologies](#container-technologies)
+    * [Cryptography and Security](#cryptography-and-security)
+    * [Distributed and Decentralized Systems](#distributed-and-decentralized-systems)
+    * [Databases](#databases)
+    * [Data Serialization](#data-serialization)
+    * [Networking](#networking)
 
 ## Algorithms and Performance Analysis
 
@@ -18,9 +35,6 @@ References to concepts and my working examples related to algorithms and perform
 * [Algorithms and Data Structures Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=8hly31xKli0)
 * [A beginner's guide to Big O Notation](https://robbell.io/2009/06/a-beginners-guide-to-big-o-notation)
 * [Overview of BigO with my working examples](./docs/bigo.md)
-
-### My working examples
-* [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)
 
 ## Container Technologies
 
@@ -38,16 +52,12 @@ Containers are technologies that allow the packaging and isolation of applicatio
 * `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.  
     * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
     * [Working examples](./examples/chroot/jailer.sh)
-* Docker
-    * [References](./docs/docker.md)
+* [Docker](./docs/docker.md)
 * Kubernetes
-    * Concepts
-        * [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
-        * [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
-        * [Working with Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
-        * [Cluster Architecture](https://kubernetes.io/docs/concepts/architecture/)
-    * My working examples:
-        * [Kubernetes and Go](https://github.com/paulwizviz/go-k8s.git)
+    * [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+    * [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
+    * [Working with Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
+    * [Cluster Architecture](https://kubernetes.io/docs/concepts/architecture/)
 
 ## Cryptography and Security
 
@@ -57,19 +67,12 @@ All things related to cryptography and security
 
 Techniques to encrypt, decrypt and verify data.
  
- * Concepts
-    * [Cryptography Concepts - SY0-601 CompTIA Security+ : 2.8](https://www.youtube.com/watch?v=A6HNd1EGfIc)
-* Asymetric
-    * [References](./docs/asymetic.md)
-    * My working examples:
-        * [https://github.com/paulwizviz/go-crypto](https://github.com/paulwizviz/go-crypto)
+* [Cryptography Concepts - SY0-601 CompTIA Security+ : 2.8](https://www.youtube.com/watch?v=A6HNd1EGfIc)
+* [Asymetric](./docs/asymetic.md)
 * Modular Mathematics
     * [The Mathematics of Cryptography](https://www.youtube.com/watch?v=uNzaMrcuTM0)
     * [Modular Arithmetic Visually Explained](https://www.youtube.com/watch?v=lJ3CD9M3nEQ)
-* Symmetric
-    * [References](./docs/symmetric.md)
-    * My working examples:
-        * [https://github.com/paulwizviz/go-crypto](https://github.com/paulwizviz/go-crypto)
+* [Symmetric](./docs/symmetric.md)
 * Stream and block ciphers
     * [Streams and block ciphers](https://www.youtube.com/watch?v=7J2XbZNNF4A)
     * [Block Cipher Modes - CompTIA Security+ SY0-501 - 6.2](https://www.youtube.com/watch?v=6rE-KlhBlq4)
@@ -78,77 +81,42 @@ Techniques to encrypt, decrypt and verify data.
 
 The application of cryptographic techniques to support secure computation.
 
-* Checksum
-    * References:
-        * [Definition of checksum](https://www.techtarget.com/searchsecurity/definition/checksum)
-    * My working examples:
-        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
-* Digital certificates
-    * [References](./docs/certs.md)
-    * My working examples:
-        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
+* [Checksum](https://www.techtarget.com/searchsecurity/definition/checksum)      
+* [Digital certificates](./docs/certs.md)
 * Public Key Infrastructure
-    * References
-        * [PKI Components - CompTIA Security+ SY0-501 - 6.4](https://www.youtube.com/watch?v=3yuad7_bszE)
-    * My working examples:
-        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
-* Transport Layer Security
-    * My working examples:
-        * [https://github.com/paulwizviz/go-security](https://github.com/paulwizviz/go-security)
+    * [PKI Components - CompTIA Security+ SY0-501 - 6.4](https://www.youtube.com/watch?v=3yuad7_bszE)
 
 ## Distributed and Decentralized Systems
 
-A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of 
-distributed system: centralised and decentralised. For decentralized version refer to [my blockchain project](https://github.com/paulwizviz/my-blockchain). Here the 
-focus is on centralised systems.
+A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of distributed system: centralised and decentralised. 
+
+For decentralized version refer to [my blockchain project](https://github.com/paulwizviz/my-blockchain). 
+
+Here the centralised distributed system architecture include:
 
 ### Architectural patterns
 
-* Concepts
-    * [Microservices explained - the What, Why and How?](https://www.youtube.com/watch?v=rv4LlmLmVWk).
-    * [7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE).
-    * [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
-    * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
-* My working examples
-    * [learn-microservices](https://github.com/paulwizviz/learn-microservices)
+* [Microservices explained - the What, Why and How?](https://www.youtube.com/watch?v=rv4LlmLmVWk).
+* [7 Most-Used Distributed System Patterns](https://www.youtube.com/watch?v=nH4qjmP2KEE).
+* [The Many Meanings of Event-Driven Architecture by Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
+* [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
 
 ### Communication patterns
 
-* GraphQL
-    * My working examples:
-        * [graphql-template](https://github.com/paulwizviz/graphql-template)
+* [GraphQL](https://graphql.org/)    
 * GRPC and Protobuf
-    * My working examples:
-        * [Protobuf template](https://github.com/paulwizviz/protobuf-lib-template)
-* REST
-    * [Concepts](./docs/rest.md)
-* MQTT
-    * [Concepts](./docs/mqtt.md)
-    * My working examples:
-        * [go-mqtt](https://github.com/paulwizviz/go-mqtt)
-* Kafka
-    * [Concepts](./docs/kafka.md)
-    * My working examples:
-        * [go-kafka](https://github.com/paulwizviz/go-kafka)
+    * [GRPC](https://grpc.io/docs/what-is-grpc/introduction/)
+    * [Protobuf](https://protobuf.dev/)        
+* [REST](./docs/rest.md)
+* [MQTT](./docs/mqtt.md)
+* [Kafka](./docs/kafka.md)
 
 ## Databases
 
 There are two categorise of databases: NoSQL and SQL databases.
 
-### NoSQL
-    
-* Concepts
-    * [What is NoSQL?](https://www.mongodb.com/resources/basics/databases/nosql-explained)
-* My working examples:
-    * [go-cockroachdb](https://github.com/paulwizviz/go-cockroachdb)
-    * [go-mongodb](https://github.com/paulwizviz/go-mongodb)
-    * [go-redis](https://github.com/paulwizviz/go-redis)
-    * [go-keyvaluedb](https://github.com/paulwizviz/go-keyvaluedb)
-    * [learn-elastics](https://github.com/paulwizviz/learn-elastic)
-
-### SQL databases
-
-Refer to my Git repository [learn-sql](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
+* [NoSQL](https://www.mongodb.com/resources/basics/databases/nosql-explained)
+* [SQL databases](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
 
 ## Data Serialization
 
@@ -158,25 +126,19 @@ This section discuss all things related to data encoding formats.
 
 Abstract Syntax Notation One (ASN.1) is a standard interface description language for defining data structures that can be serialized and deserialized in a cross-platform way. It is broadly used in telecommunications and computer networking, and especially in cryptography.
 
-* References:
-    * [Introduction to ASN.1](https://www.itu.int/en/ITU-T/asn1/Pages/introduction.aspx)
-    * [A Warm Welcome to ASN.1 and DER](https://letsencrypt.org/docs/a-warm-welcome-to-asn1-and-der/)
-    * [OSS Nokalva - ASN](https://www.oss.com/resources/resources.html)
-    * [ASN.1 Quick Reference](https://www.oss.com/asn1/resources/asn1-made-simple/asn1-quick-reference.html)
-    * [ASN1 Simple types](https://www.obj-sys.com/asn1tutorial/node10.html)
-    * [A Layman's Guide to a Subset of ASN.1, BER, and DER](http://luca.ntop.org/Teaching/Appunti/asn1.html)
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
+* [Introduction to ASN.1](https://www.itu.int/en/ITU-T/asn1/Pages/introduction.aspx)
+* [A Warm Welcome to ASN.1 and DER](https://letsencrypt.org/docs/a-warm-welcome-to-asn1-and-der/)
+* [OSS Nokalva - ASN](https://www.oss.com/resources/resources.html)
+* [ASN.1 Quick Reference](https://www.oss.com/asn1/resources/asn1-made-simple/asn1-quick-reference.html)
+* [ASN1 Simple types](https://www.obj-sys.com/asn1tutorial/node10.html)
+* [A Layman's Guide to a Subset of ASN.1, BER, and DER](http://luca.ntop.org/Teaching/Appunti/asn1.html)
 
 ### Base64
 
 In computer programming, Base64 is a group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits.
 
-* References
-    * [The Base16, Base32, and Base64 Data Encodings](https://datatracker.ietf.org/doc/html/rfc4648)
-    * [Base64](https://en.wikipedia.org/wiki/Base64)
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
+* [The Base16, Base32, and Base64 Data Encodings](https://datatracker.ietf.org/doc/html/rfc4648)
+* [Base64](https://en.wikipedia.org/wiki/Base64)
 
 ### Distinguished Encoding Rules (DER) encoding
 
@@ -184,21 +146,11 @@ DER is a binary encoding for X.509 certificates and private keys. DER-encoded fi
 
 ### Gob
 
-This is a Go-specific data package for communicating between two servers written in Go.
-
-* References
-    * [Gobs of data](https://go.dev/blog/gob)
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
+[Gobs](https://go.dev/blog/gob) is a Go-specific data package for communicating between two servers written in Go.
 
 ### Ini File
 
-A text based configuration file comprising of key value pair
-
-* References
-    * [INI file](https://en.wikipedia.org/wiki/INI_file)
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
+[INI file](https://en.wikipedia.org/wiki/INI_file) text based configuration file comprising of key value pair.
 
 ### Privacy Enhanced Mail (PEM) Encoding
 
@@ -206,8 +158,7 @@ A PEM file is a text file containing one or more items in Base64 ASCII encoding,
 
 PEM files are usually seen with the extensions `.crt`, `.pem`, `.cer`, and `.key` (for private keys)
 
-Example of PEM file
-
+Example of a PEM file:
 ```text
 -----BEGIN CERTIFICATE-----
 MIIH/TCCBeWgAwIBAgIQaBYE3/M08XHYCnNVmcFBcjANBgkqhkiG9w0BAQsFADBy
@@ -256,42 +207,22 @@ F10YlqcOmeX1uFmKbdi/XorGlkCoMF3TDx8rmp9DBiB/
 -----END CERTIFICATE-----
 ```
 
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
-
 ### The Concise Binary Object Representation (CBOR)
 
 The Concise Binary Object Representation (CBOR) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.
 
-* References
-    * [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
-    * [CBOR](https://cbor.io/)
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
+* [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
+* [CBOR](https://cbor.io/)
 
 ### Tom's Obvious Minimal Language (TOML)
 
-TOML is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
-
-* References
-    * [Official Documentation](https://toml.io/en/)
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
+[TOML](https://toml.io/en/) is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
 
 ### YAML Ain’t Markup Language (YAML)
 
-YAML (a recursive acronym for “YAML Ain’t Markup Language”) is a data serialization language based on a the use of indentation. It is intended to be human readable.
-
-* References
-    * [Official documentation](https://yaml.org/spec/1.2.2/)
-* Working Examples
-    * [My Go Implementation](https://github.com/paulwizviz/go-serialization.git)
+[YAML]((https://yaml.org/spec/1.2.2/) (a recursive acronym for “YAML Ain’t Markup Language”) is a data serialization language based on a the use of indentation. It is intended to be human readable.
 
 ## Networking
-
-Here we discuss technologies related to networking concepts, tools and programming.
-
-### Concepts
 
 * [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 * Software Networking and Interfaces on Linux
@@ -314,8 +245,6 @@ Here we discuss technologies related to networking concepts, tools and programmi
 ### Programming
 
 * [libp2p-pubsub Peer Discovery with Kademlia DHT](https://medium.com/rahasak/libp2p-pubsub-peer-discovery-with-kademlia-dht-c8b131550ac7)
-* My working examples
-    * [https://github.com/paulwizviz/go-networking.git](https://github.com/paulwizviz/go-networking.git)
 
 ## Disclaimers
 
