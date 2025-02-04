@@ -11,6 +11,7 @@ Here you find references to:
         * [Kubernetes and Go](https://github.com/paulwizviz/go-k8s.git)
     * Messaging patterns
         * [MQTT for Go programming](https://github.com/paulwizviz/go-mqtt)
+        * [NATS for Go programming](https://github.com/paulwizviz/go-nats)
         * [Kafka for Go programming](https://github.com/paulwizviz/go-kafka)
     * Cryptography and security
         * [Examples using Go for cryptographic programming](https://github.com/paulwizviz/go-crypto)
