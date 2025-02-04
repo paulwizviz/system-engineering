@@ -3,21 +3,27 @@
 Here you find references to:
 
 * My Working examples 
-    * [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)
-    * [Kubernetes and Go](https://github.com/paulwizviz/go-k8s.git)
-    * [Examples using Go for cryptographic programming](https://github.com/paulwizviz/go-crypto)
-    * [Examples using Go implementing security](https://github.com/paulwizviz/go-security)
-    * [Examples of microservices implemented in Go](https://github.com/paulwizviz/learn-microservices)
-    * [GraphQL implementation in Go](https://github.com/paulwizviz/graphql-template)
-    * [Protobuf teamplates](https://github.com/paulwizviz/protobuf-lib-template)
-    * [MQTT for Go programming](https://github.com/paulwizviz/go-mqtt)
-    * [Kafka for Go programming](https://github.com/paulwizviz/go-kafka)
-    * [Cockroach DB for Go programming](https://github.com/paulwizviz/go-cockroachdb)
-    * [Mongodb for Go programming](https://github.com/paulwizviz/go-mongodb)
-    * [Redis for Go programming](https://github.com/paulwizviz/go-redis)
-    * [Elastics for Go programming](https://github.com/paulwizviz/learn-elastic)
-    * [Examples of serialization in Go](https://github.com/paulwizviz/go-serialization.git)
-    * [Network programming in Go](https://github.com/paulwizviz/go-networking.git)
+    * Algorithms and data models
+        * [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)
+    * Application Programming Interfaces
+        * [GraphQL implementation in Go](https://github.com/paulwizviz/graphql-template)
+    * Container technologies
+        * [Kubernetes and Go](https://github.com/paulwizviz/go-k8s.git)
+    * Messaging patterns
+        * [MQTT for Go programming](https://github.com/paulwizviz/go-mqtt)
+        * [Kafka for Go programming](https://github.com/paulwizviz/go-kafka)
+    * Cryptography and security
+        * [Examples using Go for cryptographic programming](https://github.com/paulwizviz/go-crypto)
+        * [Examples using Go implementing security](https://github.com/paulwizviz/go-security)
+    * Datastores
+        * [Cockroach DB for Go programming](https://github.com/paulwizviz/go-cockroachdb)
+        * [Mongodb for Go programming](https://github.com/paulwizviz/go-mongodb)
+        * [Redis for Go programming](https://github.com/paulwizviz/go-redis)
+        * [Elastics for Go programming](https://github.com/paulwizviz/learn-elastic)
+    * Networking
+        * [Network programming in Go](https://github.com/paulwizviz/go-networking.git)
+    * Serialization
+        * [Examples of serialization in Go](https://github.com/paulwizviz/go-serialization.git)
 * Concepts
     * [Algorithms and Performance Analysis](#algorithms-and-performance-analysis)
     * [Container Technologies](#container-technologies)
