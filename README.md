@@ -125,6 +125,8 @@ There are three categorise of databases: NoSQL, Timeseries and SQL databases.
 
 * [NoSQL](https://www.mongodb.com/resources/basics/databases/nosql-explained)
 * [Time Series DB](https://www.influxdata.com/time-series-database/)
+    * [InfluxDB](https://docs.influxdata.com/)
+        * [FluxQL](https://docs.influxdata.com/influxdb/cloud/reference/syntax/flux/flux-vs-influxql/)
 * [SQL databases](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
 
 ## Data Serialization
