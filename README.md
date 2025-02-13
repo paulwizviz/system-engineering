@@ -21,7 +21,7 @@ Here you find references to:
         * [Mongodb for Go programming](https://github.com/paulwizviz/go-mongodb)
         * [Redis for Go programming](https://github.com/paulwizviz/go-redis)
         * [Elastics for Go programming](https://github.com/paulwizviz/learn-elastic)
-        * [Timeseries DB for Go programming](https://github.com/paulwizviz/go-timescaledb.git)
+        * [Timeseries DB for Go programming](hhttps://github.com/paulwizviz/go-timeseriesdb.git)
     * Networking
         * [Network programming in Go](https://github.com/paulwizviz/go-networking.git)
     * Serialization
