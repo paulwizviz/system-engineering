@@ -121,9 +121,10 @@ Here the centralised distributed system architecture include:
 
 ## Databases
 
-There are two categorise of databases: NoSQL and SQL databases.
+There are three categorise of databases: NoSQL, Timeseries and SQL databases.
 
 * [NoSQL](https://www.mongodb.com/resources/basics/databases/nosql-explained)
+* [Time Series DB](https://www.influxdata.com/time-series-database/)
 * [SQL databases](https://github.com/paulwizviz/learn-sql) for further discussion on this topic.
 
 ## Data Serialization
