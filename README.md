@@ -8,7 +8,7 @@ Here you find references to:
     * Application Programming Interfaces
         * [GraphQL implementation in Go](https://github.com/paulwizviz/graphql-template)
     * Container technologies
-        * [Kubernetes and Go](https://github.com/paulwizviz/go-k8s.git)
+        * [Kubernetes examples](https://github.com/paulwizviz/k8s-examples.git)
     * Messaging patterns
         * [MQTT for Go programming](https://github.com/paulwizviz/go-mqtt)
         * [NATS for Go programming](https://github.com/paulwizviz/go-nats)
