@@ -5,6 +5,8 @@ Here you find references to:
 * My Working examples 
     * Algorithms and data models
         * [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)
+    * Artifical Intelligence (Machine Learning, etc)
+        * [Examples demonstrating applications interaction with LLM](https://github.com/paulwizviz/llm-api-examples.git)
     * Application Programming Interfaces
         * [GraphQL implementation in Go](https://github.com/paulwizviz/graphql-template)
     * Container technologies
@@ -35,27 +37,24 @@ Here you find references to:
     * [Data Serialization](#data-serialization)
     * [Networking](#networking)
 
+## Artifical Intelligence
+
+* [AI vs ML vs DL vs DS - Difference Explained | AI For Beginners](https://www.youtube.com/watch?v=hhFG9X3h8t8)
+
 ## Algorithms and Performance Analysis
 
-References to concepts and my working examples related to algorithms and performance analysis.
-
-### Concepts
 * [Algorithms and Data Structures Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=8hly31xKli0)
 * [A beginner's guide to Big O Notation](https://robbell.io/2009/06/a-beginners-guide-to-big-o-notation)
 * [Overview of BigO with my working examples](./docs/bigo.md)
 
 ## Container Technologies
 
-Containers are technologies that allow the packaging and isolation of applications with their entire runtime environment, all of the files, necessary to run.
-
-### Concepts
-
 * [What Is Container Technology?](https://www.solarwinds.com/resources/it-glossary/container)
 * [Containers vs Virtualization by Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization)
 
 ![vm vs containers](./assets/img//vm-vs-containers.png)
 
-### Types
+Concepts:
 
 * `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.  
     * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
@@ -233,6 +232,8 @@ The Concise Binary Object Representation (CBOR) is a data format whose design go
 ### YAML Ain’t Markup Language (YAML)
 
 [YAML]((https://yaml.org/spec/1.2.2/) (a recursive acronym for “YAML Ain’t Markup Language”) is a data serialization language based on a the use of indentation. It is intended to be human readable.
+
+
 
 ## Networking
 
