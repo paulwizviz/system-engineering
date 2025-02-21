@@ -29,9 +29,9 @@ The key components are:
     * **WebSockets:** Enables real-time, bidirectional communication between devices and servers.
     * **JetStream:** A streaming data protocol built into the NATS server, designed for high-throughput, persistent, and reliable delivery of data streams. It features built in flow control, and ordered delivery. Well suited for high volume telemetry data, and use cases that require data durability.
 * Data Serialization: Most widely quoted.
-    * **JSON**
-    * **CBOR**
-    * **XML**
+    * [JSON](https://www.json.org/json-en.html)
+    * [Concise Binary Object Representation (CBOR)](https://cbor.io/)
+    * [XML](https://www.w3.org/TR/xml/)
 * Other Important Protocols:
     * **Modbus:** An industrial protocol used for communication with programmable logic controllers (PLCs) and other industrial equipment.
     OPC UA (OLE for Process Control Unified Architecture): Another industrial protocol for data exchange and communication in automation systems.
