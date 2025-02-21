@@ -98,9 +98,7 @@ A centralised distributed system architecture include:
     * [Creating event-driven microservices: the why, how and what by Andrew Schofield](https://www.youtube.com/watch?v=ksRCq0BJef8)
 * Communication patterns
     * [GraphQL](https://graphql.org/)    
-    * GRPC and Protobuf
-        * [GRPC](https://grpc.io/docs/what-is-grpc/introduction/)
-        * [Protobuf](https://protobuf.dev/)        
+    * [gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and also see [Protobuf](#data-serialization)     
     * [REST](./docs/rest.md)
     * [MQTT](./docs/mqtt.md)
     * [Kafka](./docs/kafka.md)
@@ -130,11 +128,12 @@ This section discuss all things related to data encoding formats.
 * [Base64](https://en.wikipedia.org/wiki/Base64) - A group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits.
     * [RFC 4648](https://datatracker.ietf.org/doc/html/rfc4648)
 * Distinguished Encoding Rules (DER) encoding - A binary encoding for X.509 certificates and private keys. DER-encoded files are usually found with the extensions `.der` and `.cer`.
+* [Concise Binary Object Representation (CBOR)](https://cbor.io/) - A data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.
+    * [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
 * [Gob](https://go.dev/blog/gob) - A Go-specific data package for communicating between two servers written in Go.
 * [Ini File](https://en.wikipedia.org/wiki/INI_file)  - A text based configuration file comprising of key value pair.
 * [Privacy Enhanced Mail (PEM) Encoding](./docs/pem.md)
-* [Concise Binary Object Representation (CBOR)](https://cbor.io/) - A data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.
-    * [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
+* [Protobuf](https://protobuf.dev/)   
 * [Tom's Obvious Minimal Language (TOML)](https://toml.io/en/) is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
 * [YAML Ain’t Markup Language (YAML)](https://yaml.org/spec/1.2.2/) - A recursive acronym for “YAML Ain’t Markup Language” is a data serialization language based on a the use of indentation. It is intended to be human readable.
 
