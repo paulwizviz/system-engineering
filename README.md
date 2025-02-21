@@ -133,7 +133,7 @@ This section discuss all things related to data encoding formats.
 * [Gob](https://go.dev/blog/gob) - A Go-specific data package for communicating between two servers written in Go.
 * [Ini File](https://en.wikipedia.org/wiki/INI_file)  - A text based configuration file comprising of key value pair.
 * [Privacy Enhanced Mail (PEM) Encoding](./docs/pem.md)
-* [Concise Binary Object Representation (CBOR)](https://cbor.io/)(https://cbor.io/) - A data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.
+* [Concise Binary Object Representation (CBOR)](https://cbor.io/) - A data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation.
     * [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
 * [Tom's Obvious Minimal Language (TOML)](https://toml.io/en/) is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
 * [YAML Ain’t Markup Language (YAML)](https://yaml.org/spec/1.2.2/) - A recursive acronym for “YAML Ain’t Markup Language” is a data serialization language based on a the use of indentation. It is intended to be human readable.
