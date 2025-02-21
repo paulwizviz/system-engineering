@@ -54,11 +54,7 @@ A collection of working examples and references to learning materials about all 
     * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
     * [Working examples](./examples/chroot/jailer.sh)
 * [Docker](./docs/docker.md)
-* Kubernetes
-    * [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
-    * [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
-    * [Working with Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
-    * [Cluster Architecture](https://kubernetes.io/docs/concepts/architecture/)
+* [Kubernetes](./docs/k8s.md)
 
 ![vm vs containers](./assets/img//vm-vs-containers.png)
 
