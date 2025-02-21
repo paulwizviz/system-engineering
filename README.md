@@ -50,11 +50,6 @@ A collection of working examples and references to learning materials about all 
 
 * [What Is Container Technology?](https://www.solarwinds.com/resources/it-glossary/container)
 * [Containers vs Virtualization by Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization)
-
-![vm vs containers](./assets/img//vm-vs-containers.png)
-
-Concepts:
-
 * `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.  
     * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
     * [Working examples](./examples/chroot/jailer.sh)
@@ -64,6 +59,8 @@ Concepts:
     * [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
     * [Working with Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
     * [Cluster Architecture](https://kubernetes.io/docs/concepts/architecture/)
+
+![vm vs containers](./assets/img//vm-vs-containers.png)
 
 ### Cryptography and Security
 
@@ -148,7 +145,7 @@ This section discuss all things related to data encoding formats.
     * [Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
     * [Part 2](https://www.youtube.com/watch?v=5WNEpE1vLvc)
 * [OSI model](./docs/osi.md)
-
+* [Internet of Things](./docs/iot.md)
 * Tools
     * [Deep Dive: The ip Command in Linux](https://www.youtube.com/watch?v=30mQ4fD5kMI)
     * [ifconfig mac](https://www.youtube.com/watch?v=4-5x7iLiVSg)
