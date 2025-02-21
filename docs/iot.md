@@ -28,10 +28,32 @@ The key components are:
     * **HTTP/HTTPS:** The foundation of the web, also used in IoT for devices that need to communicate with web services.
     * **WebSockets:** Enables real-time, bidirectional communication between devices and servers.
     * **JetStream:** A streaming data protocol built into the NATS server, designed for high-throughput, persistent, and reliable delivery of data streams. It features built in flow control, and ordered delivery. Well suited for high volume telemetry data, and use cases that require data durability.
+* Data Serialization: Most widely quoted.
+    * **JSON**
+    * **CBOR**
+    * **XML**
 * Other Important Protocols:
     * **Modbus:** An industrial protocol used for communication with programmable logic controllers (PLCs) and other industrial equipment.
     OPC UA (OLE for Process Control Unified Architecture): Another industrial protocol for data exchange and communication in automation systems.
     * **DDS (Data Distribution Service):** A high-performance protocol for real-time data distribution, often used in applications like autonomous vehicles and robotics.
+
+> NOTE: it is necessary to distinguish data protocols and data serialisation protocols
+>
+> **Data Protocols:**
+>
+> **Purpose:** Define the rules and formats for how data is transmitted between devices or applications over a network.   
+>
+> **Focus:** The "how" of data transmission. They specify things like: Addressing (where the data is going), Routing (how the data gets there), Error handling (how to deal with lost or corrupted data), Connection management (how to establish and maintain connections).
+>
+> **Examples:** MQTT, CoAP, AMQP, HTTP, WebSockets, JetStream.
+>
+> **Data Serialization:**
+>
+> **Purpose:** Define the format for how data is structured and encoded into a stream of bytes that can be transmitted over a network or stored.   
+>
+> **Focus:** The "what" of data representation. They specify things like: Data types (integers, strings, objects, etc.), Data structures (arrays, dictionaries, etc.), Encoding (how to convert data into a binary or text format)   
+>
+> **Examples**: JSON, Protocol Buffers, CBOR, XML.
 
 | Feature | MQTT | CoAP | AMQP | HTTP/HTTPS | WebSockets |JetStream |
 |---|---|---|---|---|---|---|
@@ -50,3 +72,7 @@ Choosing the right protocol depends on several factors:
     * **Power consumption:** How much power do the devices use?
     * **Security:** How important is data security?
     * **Cost:** How much does it cost to implement the protocol?
+
+Useful references:
+
+* [Unified Data Standards in IoT: Common Protocols, Challenges, and the Path to Interoperability - By Linh Chu Dieu, 21 November 2024](https://smartdev.com/unified-data-standards-in-iot-enabling-interoperability-and-seamless-communication/)
