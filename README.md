@@ -97,6 +97,7 @@ A centralised distributed system architecture include:
     * [gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and also see [Protobuf](#data-serialization)     
     * [REST](./docs/rest.md)
     * [MQTT](./docs/mqtt.md)
+    * [NATS](./docs/nats.md)
     * [Kafka](./docs/kafka.md)
 
 ### Databases
