@@ -9,7 +9,7 @@ MQTT stands for MQ Telemetry Transport. The protocol is a set of rules that defi
 
 ## Reference
 
-* * [Official documentation](https://mqtt.org/)
+* [Official documentation](https://mqtt.org/)
 
 ## Specifications
 
