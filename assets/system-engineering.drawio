@@ -1,0 +1,97 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Stack Data Type" id="BFV3gm4bTRpUQm_RLkcs">
+    <mxGraphModel dx="889" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="140" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-1" value="1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-2" value="2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-3" value="3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Nflof4Jr90iBJGmodGCJ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="400" as="sourcePoint" />
+            <mxPoint x="120" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-7" value="push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Nflof4Jr90iBJGmodGCJ-6" vertex="1" connectable="0">
+          <mxGeometry x="0.36" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-11" value="Stack" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="90" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="100" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-14" value="1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-15" value="2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-16" value="Stack" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="290" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-17" value="3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="sourcePoint" />
+            <mxPoint x="370" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-19" value="pop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Nflof4Jr90iBJGmodGCJ-18" vertex="1" connectable="0">
+          <mxGeometry x="0.34" relative="1" as="geometry">
+            <mxPoint x="-20" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="140" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-21" value="1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-22" value="2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-23" value="3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-26" value="Stack" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="450" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Nflof4Jr90iBJGmodGCJ-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="120" as="sourcePoint" />
+            <mxPoint x="520" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nflof4Jr90iBJGmodGCJ-28" value="pop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Nflof4Jr90iBJGmodGCJ-27" vertex="1" connectable="0">
+          <mxGeometry x="0.34" relative="1" as="geometry">
+            <mxPoint x="-14" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

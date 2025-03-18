@@ -1,13 +1,18 @@
 # System Engineering: Working Examples and References
 
-A collection of working examples and references to learning materials about all things system engineering compiled by [CONTRIBUTORS](./CONTRIBUTORS).
+This repository is a collection of working examples and refereces to all things related to traditional system engineering practices and technologies.
+
+For other non-traditional system engineering practices and technologies, please refer to:
+
+* [Learn blockchain](https://github.com/paulwizviz/learn-blockchain)
+* [Learn Artifical Intelligence](https://github.com/paulwizviz/learn-ai)
+
+The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 
 ## Working Examples
 
 * Algorithms and data models
-    * [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)
-* Artifical Intelligence (Machine Learning, etc)
-    * [Examples demonstrating applications interaction with LLM](https://github.com/paulwizviz/llm-api-examples.git)
+    * [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)   
 * Application Programming Interfaces
     * [GraphQL implementation in Go](https://github.com/paulwizviz/graphql-template)
 * Container technologies
@@ -35,10 +40,6 @@ A collection of working examples and references to learning materials about all 
 * [Databases](#databases)
 * [Data Serialization](#data-serialization)
 * [Networking](#networking)
-
-### Artifical Intelligence
-
-* [AI vs ML vs DL vs DS - Difference Explained | AI For Beginners](https://www.youtube.com/watch?v=hhFG9X3h8t8)
 
 ### Algorithms and Performance Analysis
 
