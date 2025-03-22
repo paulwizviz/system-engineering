@@ -4,32 +4,30 @@ This repository is a collection of working examples and refereces to all things 
 
 For other non-traditional system engineering practices and technologies, please refer to:
 
-* [Learn blockchain](https://github.com/paulwizviz/learn-blockchain)
-* [Learn Artifical Intelligence](https://github.com/paulwizviz/learn-ai)
+* [Blockchain](https://github.com/paulwizviz/learn-blockchain)
+* [Artifical Intelligence](https://github.com/paulwizviz/learn-ai)
 
 The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 
 ## Working Examples
-
-* Algorithms and data models
-    * [Go algorithm and data models](https://github.com/paulwizviz/go-algorithm)   
+  
 * Application Programming Interfaces
-    * [GraphQL implementation in Go](https://github.com/paulwizviz/graphql-template)
+    * [Go GraphQL implementation](https://github.com/paulwizviz/graphql-template)
 * Container technologies
     * [Kubernetes examples](https://github.com/paulwizviz/k8s-examples.git)
 * Messaging patterns
-    * [MQTT for Go programming](https://github.com/paulwizviz/go-mqtt)
-    * [NATS for Go programming](https://github.com/paulwizviz/go-nats)
-    * [Kafka for Go programming](https://github.com/paulwizviz/go-kafka)
+    * [Go MQTT programming](https://github.com/paulwizviz/go-mqtt)
+    * [Go NATS programming](https://github.com/paulwizviz/go-nats)
+    * [Go Kafka programming](https://github.com/paulwizviz/go-kafka)
 * Cryptography and security
-    * [Examples using Go for cryptographic programming](https://github.com/paulwizviz/go-crypto)
-    * [Examples using Go implementing security](https://github.com/paulwizviz/go-security)
+    * [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)
+    * [Go security programming](https://github.com/paulwizviz/go-security)
 * Datastores
-    * [Timeseries DB for Go programming](https://github.com/paulwizviz/go-timeseriesdb.git)
+    * [Go Timeseries DB programming](https://github.com/paulwizviz/go-timeseriesdb.git)
 * Networking
-    * [Network programming in Go](https://github.com/paulwizviz/go-networking.git)
+    * [Go Network programming](https://github.com/paulwizviz/go-networking.git)
 * Serialization
-    * [Examples of serialization in Go](https://github.com/paulwizviz/go-serialization.git)
+    * [Go serialization](https://github.com/paulwizviz/go-serialization.git)
 
 ## References
 
@@ -80,13 +78,9 @@ All things related to cryptography and security
     * Public Key Infrastructure
         * [PKI Components - CompTIA Security+ SY0-501 - 6.4](https://www.youtube.com/watch?v=3yuad7_bszE)
 
-### Distributed and Decentralized Systems
+### Distributed Systems
 
-A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. There are two broad categories of distributed system: centralised and decentralised. 
-
-A decentralized version refer to [my blockchain project](https://github.com/paulwizviz/my-blockchain). 
-
-A centralised distributed system architecture include:
+A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. 
 
 * Architectural patterns
     * [Microservices explained - the What, Why and How?](https://www.youtube.com/watch?v=rv4LlmLmVWk).
