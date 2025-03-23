@@ -15,15 +15,13 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
     * [Go GraphQL implementation](https://github.com/paulwizviz/graphql-template)
 * Container technologies
     * [Kubernetes examples](https://github.com/paulwizviz/k8s-examples.git)
+* Cryptography and security
+    * [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)
+    * [Go security programming](https://github.com/paulwizviz/go-security)
 * Messaging patterns
     * [Go MQTT programming](https://github.com/paulwizviz/go-mqtt)
     * [Go NATS programming](https://github.com/paulwizviz/go-nats)
     * [Go Kafka programming](https://github.com/paulwizviz/go-kafka)
-* Cryptography and security
-    * [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)
-    * [Go security programming](https://github.com/paulwizviz/go-security)
-* Datastores
-    * [Go Timeseries DB programming](https://github.com/paulwizviz/go-timeseriesdb.git)
 * Networking
     * [Go Network programming](https://github.com/paulwizviz/go-networking.git)
 * Serialization
@@ -102,11 +100,9 @@ There are three categorise of databases: NoSQL, Timeseries and SQL databases.
 * [NoSQL](https://www.mongodb.com/resources/basics/databases/nosql-explained)
     * [Elastic Search](https://github.com/paulwizviz/learn-elastic)
 * [Time Series DB](https://www.influxdata.com/time-series-database/)
-    * [InfluxDB](https://docs.influxdata.com/)
-        * [FluxQL](https://docs.influxdata.com/influxdb/cloud/reference/syntax/flux/flux-vs-influxql/)
-        * [InfuxDB: Overview, Key Concepts and Demo | Getting Started](https://www.youtube.com/watch?v=gb6AiqCJqP0)
-* SQL databases
-    * [Introduction to SQL](https://www.w3schools.com/sql/sql_intro.asp)
+    * [InfluxDB](https://github.com/paulwizviz/learn-influx)
+* [SQL databases](https://www.w3schools.com/sql/sql_intro.asp)
+    * [Postgres DB](https://github.com/paulwizviz/learn-postgres)
 
 ### Data Serialization
 
