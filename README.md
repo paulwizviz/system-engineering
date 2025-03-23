@@ -100,6 +100,7 @@ A distributed system is a type of system architectural pattern where processes i
 There are three categorise of databases: NoSQL, Timeseries and SQL databases.
 
 * [NoSQL](https://www.mongodb.com/resources/basics/databases/nosql-explained)
+    * [Elastic Search](https://github.com/paulwizviz/learn-elastic)
 * [Time Series DB](https://www.influxdata.com/time-series-database/)
     * [InfluxDB](https://docs.influxdata.com/)
         * [FluxQL](https://docs.influxdata.com/influxdb/cloud/reference/syntax/flux/flux-vs-influxql/)
