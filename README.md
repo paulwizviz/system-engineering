@@ -23,7 +23,6 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 
 ## References
 
-* [Algorithms and Performance Analysis](#algorithms-and-performance-analysis)
 * [Container Technologies](#container-technologies)
 * [Cryptography and Security](#cryptography-and-security)
 * [Distributed and Decentralized Systems](#distributed-and-decentralized-systems)
