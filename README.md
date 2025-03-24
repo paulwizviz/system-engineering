@@ -87,6 +87,7 @@ There are three categorise of databases: NoSQL, Timeseries and SQL databases.
 
 * [NoSQL](https://www.mongodb.com/resources/basics/databases/nosql-explained)
     * [Elastic Search](https://github.com/paulwizviz/learn-elastic)
+    * [Influx DB](https://github.com/paulwizviz/learn-influx)
 * [Time Series DB](https://www.influxdata.com/time-series-database/)
     * [InfluxDB](https://github.com/paulwizviz/learn-influx)
 * [SQL databases](https://www.w3schools.com/sql/sql_intro.asp)
