@@ -40,9 +40,6 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 ### Container Technologies
 
 * [Concepts](./docs/container.md)
-* `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.  
-    * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
-    * [Working examples](./examples/chroot/jailer.sh)
 * [Docker](https://github.com/paulwizviz/learn-docker.git)
 * [Kubernetes](https://github.com/paulwizviz/learn-k8s.git)
 
