@@ -13,15 +13,9 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
   
 * Application Programming Interfaces
     * [Go GraphQL implementation](https://github.com/paulwizviz/graphql-template)
-* Container technologies
-    * [Kubernetes examples](https://github.com/paulwizviz/k8s-examples.git)
 * Cryptography and security
     * [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)
     * [Go security programming](https://github.com/paulwizviz/go-security)
-* Messaging patterns
-    * [Go MQTT programming](https://github.com/paulwizviz/go-mqtt)
-    * [Go NATS programming](https://github.com/paulwizviz/go-nats)
-    * [Go Kafka programming](https://github.com/paulwizviz/go-kafka)
 * Networking
     * [Go Network programming](https://github.com/paulwizviz/go-networking.git)
 * Serialization
@@ -45,15 +39,12 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 
 ### Container Technologies
 
-* [What Is Container Technology?](https://www.solarwinds.com/resources/it-glossary/container)
-* [Containers vs Virtualization by Miona Aleksic](https://ubuntu.com/blog/containerization-vs-virtualization)
+* [Concepts](./docs/container.md)
 * `chroot` (Change root) is a Unix system utility used to change the apparent root directory to create a new environment logically separate from the main system's root directory.  
     * [How to Use the chroot Command on Linux](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/)
     * [Working examples](./examples/chroot/jailer.sh)
-* [Docker](./docs/docker.md)
-* [Kubernetes](./docs/k8s.md)
-
-![vm vs containers](./assets/img//vm-vs-containers.png)
+* [Docker](https://github.com/paulwizviz/learn-docker.git)
+* [Kubernetes](https://github.com/paulwizviz/learn-k8s.git)
 
 ### Cryptography and Security
 
@@ -126,6 +117,12 @@ This section discuss all things related to data encoding formats.
 * [Protobuf](https://protobuf.dev/)   
 * [Tom's Obvious Minimal Language (TOML)](https://toml.io/en/) is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
 * [YAML Ain’t Markup Language (YAML)](https://yaml.org/spec/1.2.2/) - A recursive acronym for “YAML Ain’t Markup Language” is a data serialization language based on a the use of indentation. It is intended to be human readable.
+
+### Messaging Protocols
+
+* [MQTT](https://github.com/paulwizviz/learn-mqtt)
+* [NATS](https://github.com/paulwizviz/learn-nats)
+* [Kafka](https://github.com/paulwizviz/learn-kafka)
 
 ### Networking
 
