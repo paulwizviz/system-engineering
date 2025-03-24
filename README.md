@@ -77,9 +77,9 @@ A distributed system is a type of system architectural pattern where processes i
     * [GraphQL](https://graphql.org/)    
     * [gRPC](https://grpc.io/docs/what-is-grpc/introduction/) and also see [Protobuf](#data-serialization)     
     * [REST](./docs/rest.md)
-    * [MQTT](./docs/mqtt.md)
-    * [NATS](./docs/nats.md)
-    * [Kafka](./docs/kafka.md)
+    * [MQTT](https://github.com/paulwizviz/learn-mqtt)
+    * [NATS](https://github.com/paulwizviz/learn-nats)
+    * [Kafka](https://github.com/paulwizviz/learn-kafka)
 
 ### Databases
 
@@ -115,15 +115,12 @@ This section discuss all things related to data encoding formats.
 * [Tom's Obvious Minimal Language (TOML)](https://toml.io/en/) is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
 * [YAML Ain’t Markup Language (YAML)](https://yaml.org/spec/1.2.2/) - A recursive acronym for “YAML Ain’t Markup Language” is a data serialization language based on a the use of indentation. It is intended to be human readable.
 
-### Messaging Protocols
 
-* [MQTT](https://github.com/paulwizviz/learn-mqtt)
-* [NATS](https://github.com/paulwizviz/learn-nats)
-* [Kafka](https://github.com/paulwizviz/learn-kafka)
 
 ### Networking
 
-* [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+* Concepts
+    * [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 * Software Networking and Interfaces on Linux
     * [Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
     * [Part 2](https://www.youtube.com/watch?v=5WNEpE1vLvc)
