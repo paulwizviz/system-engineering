@@ -2,7 +2,7 @@
 
 A container is a lightweight runtime packaging technology. 
 
-![vm vs containers](./assets/img//vm-vs-containers.png)
+![vm vs containers](../assets/img/vm-vs-containers.png)
 
 ## Change Root `chroot`
 
