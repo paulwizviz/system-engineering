@@ -1,18 +1,62 @@
-# Internet of Things (IoTs)
+# Networking
 
-This section discuss all things related to IoT.
+* [Practical Networking](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 
-## Components
+
+## Software Networking and Interfaces on Linux
+
+* [Part 1](https://www.youtube.com/watch?v=EnAZB8GI97c)
+* [Part 2](https://www.youtube.com/watch?v=5WNEpE1vLvc)
+
+## OSI Model
+
+The OSI model is a theoretical stack describing how applications and devices communicate over a network.
+
+![OSI Model](../assets/img/OSI-7-layers.jpg)
+
+### Level 3 - Network Layer
+
+The protocols in this layer are:
+
+* [Internet Protocol (IP)](./ip.md)
+* [Internet Control Message Protocol](https://www.ietf.org/rfc/rfc792.txt)
+    * [What is the Internet Control Message Protocol (ICMP)?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/internet-control-message-protocol-icmp/)
+
+### Level 4 - Transport Layer
+
+The protocols in this layer are:
+
+* [Transmission Control Protocol](https://www.ietf.org/rfc/rfc793.txt)
+* [User Datagram Protocol](https://www.ietf.org/rfc/rfc768.txt)
+
+### Level 7 - Application Layer
+
+The protocols in this layer are:
+
+* [HTTP](https://en.wikipedia.org/wiki/HTTP)
+    * [What is HTTP](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+* [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+* [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
+
+## TCP/IP Model
+
+![TCP/IP Model](../assets/img/093019_0615_TCPIPModelW3.webp)
+
+* [A TCP/IP Tutorial](https://www.ietf.org/rfc/rfc1180.txt)
+
+## Internet of Things
 
 The key components are:
 
 ### Hardware:
+
 * **Sensors:** These devices collect data from the environment, such as temperature, pressure, light, and motion.
 * **Actuators:** These devices can control physical systems, such as turning on and off lights, opening and closing valves, and moving motors.
 * **Microcontrollers:** These small computers are used to process data from sensors and control actuators.
 * **Connectivity hardware:** This includes devices such as Wi-Fi routers, Bluetooth chips, and cellular modems, which allow IoT devices to communicate with each other and with the internet.
 
 ### Protocols
+
 * Connectivity Protocols (How devices connect to the network):
     * **Wi-Fi**: A widely used wireless technology for connecting devices to a local network and the internet. It's common in homes and offices.
     * **Bluetooth/Bluetooth Low Energy (BLE)**: Short-range wireless technology often used for connecting personal devices like wearables and smartphones to IoT devices. BLE is designed for low power consumption.
@@ -67,12 +111,23 @@ The key components are:
 | **Key Weaknesses** | Not always guaranteed delivery | UDP, less reliable than TCP | Complex, resource intensive |	Resource-intensive | More complex than HTTP for simple data | Requires NATS server |
 
 Choosing the right protocol depends on several factors:
-    * **Range:** How far apart are the devices?
-    * **Bandwidth:** How much data needs to be transmitted?
-    * **Power consumption:** How much power do the devices use?
-    * **Security:** How important is data security?
-    * **Cost:** How much does it cost to implement the protocol?
+
+* **Range:** How far apart are the devices?
+* **Bandwidth:** How much data needs to be transmitted?
+* **Power consumption:** How much power do the devices use?
+* **Security:** How important is data security?
+* **Cost:** How much does it cost to implement the protocol?
 
 Useful references:
 
 * [Unified Data Standards in IoT: Common Protocols, Challenges, and the Path to Interoperability - By Linh Chu Dieu, 21 November 2024](https://smartdev.com/unified-data-standards-in-iot-enabling-interoperability-and-seamless-communication/)
+
+## Tools
+
+* [Deep Dive: The ip Command in Linux](https://www.youtube.com/watch?v=30mQ4fD5kMI)
+* [ifconfig mac](https://www.youtube.com/watch?v=4-5x7iLiVSg)
+
+
+## Programming
+
+* [libp2p-pubsub Peer Discovery with Kademlia DHT](https://medium.com/rahasak/libp2p-pubsub-peer-discovery-with-kademlia-dht-c8b131550ac7)

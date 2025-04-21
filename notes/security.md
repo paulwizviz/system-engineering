@@ -1,17 +1,29 @@
-# Public Key Certificates
+# Security
+
+This section discuss topics related to digital security.
+
+## Public Key Infrastructure
+
+* [PKI Components - CompTIA Security+ SY0-501 - 6.4](https://www.youtube.com/watch?v=3yuad7_bszE)
+* [5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
+* [1422 - Privacy Enhancement for Internet Electronic Mail: Part II: Certificate-Based Key Management](https://datatracker.ietf.org/doc/html/rfc1422)
+
+## Public Key Certificates
 
 In cryptography, a public key certificate, also known as a digital certificate or identity certificate, is an electronic document used to prove the validity of a public key (Source: [wiki](https://en.wikipedia.org/wiki/Public_key_certificate)).
 
-## Procedure of obtaining Public Key certificate
+[Certificate Concepts - SY0-601 CompTIA Security+ : 3.9](https://www.youtube.com/watch?v=nUuFwkyw0xs)
+
+### Procedure of obtaining Public Key certificate
 
 ![From wiki](../assets/img/550px-PublicKeyCertificateDiagram_It.svg.png) 
 [Copyright Wikipedia](https://en.wikipedia.org/wiki/Public_key_certificate)
 
-## X.509 certificate
+### X.509 certificate
 
 An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate (see [Defintion from the TechTarget July 2020](https://www.techtarget.com/searchsecurity/definition/X509-certificate))
 
-## X.509 common fields 
+X.509 common fields are: 
 
 * Version – which X.509 version applies to the certificate (which indicates what data the certificate must include)
 * Serial number – the identity creating the certificate must assign it a serial number that distinguishes it from other certificates
@@ -70,7 +82,7 @@ Certificate Revocation List syntax:
 
 Source: [wiki](https://en.wikipedia.org/wiki/X.509)
 
-## Types of certificate
+### Types of certificate
 
 * Root certificate - A public key certificate that identifies the root CA. It is used to issue other certificates.
 * Domain validation certificate - Owner of this certificate has control over a domain
@@ -93,9 +105,9 @@ Source: [Professor Messer](https://www.youtube.com/watch?v=o5gAgmRjo6A)
 
 Source: [wiki](https://en.wikipedia.org/wiki/X.509)
 
-## Certificate filename extensions
+### Certificate filename extensions
 
-* .pem – (Privacy-enhanced Electronic Mail) Base64 encoded DER certificate, enclosed between "-----BEGIN CERTIFICATE-----" and "-----END CERTIFICATE-----"
+* .pem – ([Privacy-enhanced Electronic Mail](./pem.md)) Base64 encoded DER certificate, enclosed between "-----BEGIN CERTIFICATE-----" and "-----END CERTIFICATE-----"
 * .cer, .crt, .der – usually in binary DER form, but Base64-encoded certificates are common too (see .pem above)
 * .p7b, .p7c – PKCS#7 SignedData structure without data, just certificate(s) or CRL(s)
 * .p12 – PKCS#12, may contain certificate(s) (public) and private keys (password protected)
@@ -103,11 +115,7 @@ Source: [wiki](https://en.wikipedia.org/wiki/X.509)
 
 Source: [wiki](https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions) & [Professor Messer](https://www.youtube.com/watch?v=5T6MjlFsRWI)
 
-## Network Working Group - Request for comments
 
-* [5280 - Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile](https://datatracker.ietf.org/doc/html/rfc5280)
-* [1422 - Privacy Enhancement for Internet Electronic Mail: Part II: Certificate-Based Key Management](https://datatracker.ietf.org/doc/html/rfc1422)
+## Data verification
 
-## More materials
-
-[Certificate Concepts - SY0-601 CompTIA Security+ : 3.9](https://www.youtube.com/watch?v=nUuFwkyw0xs)
+* [Checksum](https://www.techtarget.com/searchsecurity/definition/checksum)      
