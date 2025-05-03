@@ -12,14 +12,14 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 ## Working Examples
   
 * Application Programming Interfaces
-    * [Go GraphQL implementation](https://github.com/paulwizviz/graphql-template)
+  * [Go GraphQL implementation](https://github.com/paulwizviz/graphql-template)
 * Cryptography and security
-    * [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)
-    * [Go security programming](https://github.com/paulwizviz/go-security)
+  * [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)
+  * [Go security programming](https://github.com/paulwizviz/go-security)
 * Networking
-    * [Go Network programming](https://github.com/paulwizviz/go-networking.git)
+  * [Go Network programming](https://github.com/paulwizviz/go-networking.git)
 * Serialization
-    * [Go serialization](https://github.com/paulwizviz/go-serialization.git)
+  * [Go serialization](https://github.com/paulwizviz/go-serialization.git)
 
 ## Notes
 

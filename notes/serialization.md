@@ -2,7 +2,7 @@
 
 This section discuss all things related to data encoding formats.
 
-## Abstract Syntax Notation One (ASN.1) 
+## Abstract Syntax Notation One (ASN.1)
 
 A standard interface description language for defining data structures that can be serialized and deserialized in a cross-platform way. It is broadly used in telecommunications and computer networking, and especially in cryptography.
 
@@ -13,7 +13,7 @@ A standard interface description language for defining data structures that can 
 * [ASN1 Simple types](https://www.obj-sys.com/asn1tutorial/node10.html)
 * [A Layman's Guide to a Subset of ASN.1, BER, and DER](http://luca.ntop.org/Teaching/Appunti/asn1.html)
 
-## Base 64 
+## Base 64
 
 [Base64](https://en.wikipedia.org/wiki/Base64) - A group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits.
 
@@ -39,9 +39,11 @@ A Go-specific data package for communicating between two servers written in Go.
 ## INI File
 
 A text based configuration file comprising of key value pair.
+
 * [Wiki](https://en.wikipedia.org/wiki/INI_file)
 
 ## Privacy Enhanced Main (PEM) Encoding
+
 * [PEM Format](./docs/pem.md)
 
 ## Protobuf
@@ -51,9 +53,11 @@ A text based configuration file comprising of key value pair.
 ## Tom's Obvious Minimal Language (TOML)
 
 TOML is a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table.
+
 * [Official documentation](https://toml.io/en/)
 
 ## YAML Ain’t Markup Language (YAML)
 
 A recursive acronym for “YAML Ain’t Markup Language” is a data serialization language based on a the use of indentation. It is intended to be human readable.
+
 * [Official documentation](https://yaml.org/spec/1.2.2/)

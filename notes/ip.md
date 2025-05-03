@@ -4,7 +4,7 @@ Internet Protocol (IP) is a connection free protocol that is an integral part of
 
 ## IP Addressing Version 4
 
-```
+```text
 192.168.0.1
 ```
 
@@ -14,7 +14,7 @@ The first three decimal blocks refer to the Network ID. The last decimal block i
 
 A subnet mask a network address from the host ID in an IP address. For example:
 
-```
+```text
 IP Address    192.168.0.0
 Subnet Mask   255.255.255.0
 
@@ -24,7 +24,7 @@ Reveal a network ID 192.168.0.0/24 <- This format is typically used in AWS VPC
 There are three classes of IPv4 networking:
 
 * Class A
-* Class B 
+* Class B
 * Class C
 
 ### Class A
@@ -48,6 +48,7 @@ Examples:
 Class B has IP address range (172.16.0.0 - 172.31.255.255) with /16 subnet mask and representing 65,000 IP address.
 
 Examples:
+
 ```text
 172.16.0.0
 255.255.0.0
@@ -58,12 +59,12 @@ Examples:
 * Total networks = 16,382
 * Usable address per network = 65,534
 
-
 ### Class C
 
 Class C has IP address range (192.168.0.0 - 192.168.255.255) with /24 subnet mask and representing 255 IP address.
 
 Examples:
+
 ```text
 192.168.0.0
 255.255.255.0
@@ -79,6 +80,7 @@ Examples:
 Reserve for use in private networks according to [IETF RFC-1918](https://datatracker.ietf.org/doc/html/rfc1918) and can't be used in the public internet
 
 Example:
+
 ```text
 10.0.0.0 to 10.255.255.255
 172.16.0.0 to 172.32.255.255
@@ -89,7 +91,7 @@ Example:
 
 Example:
 
-```
+```text
 Network         192.168.0.0
 /24 Subnet mask 255.255.255.0 <- 8 bits host ID == 254 addresses
 /16 Subnet mask 255.255.0.0   <- 16 bits host ID = 65,534 addresses

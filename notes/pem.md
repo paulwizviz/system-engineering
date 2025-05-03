@@ -1,10 +1,11 @@
 # Privacy Enhanced Mail (PEM) Encoding
 
-A text file containing one or more items in Base64 ASCII encoding, each with plain-text headers and footers (e.g. -----BEGIN CERTIFICATE----- and -----END CERTIFICATE-----). 
+A text file containing one or more items in Base64 ASCII encoding, each with plain-text headers and footers (e.g. -----BEGIN CERTIFICATE----- and -----END CERTIFICATE-----).
 
 PEM files are usually seen with the extensions `.crt`, `.pem`, `.cer`, and `.key` (for private keys)
 
 Example of a PEM file:
+
 ```text
 -----BEGIN CERTIFICATE-----
 MIIH/TCCBeWgAwIBAgIQaBYE3/M08XHYCnNVmcFBcjANBgkqhkiG9w0BAQsFADBy
