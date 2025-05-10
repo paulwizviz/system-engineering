@@ -12,7 +12,7 @@ Elliptic Curve Cryptography (ECC) is a key-based technique for encrypting data. 
 
 * NIST (National Institute of Standards and Technology) recommended.
   * The standard elliptic curves are P-224, P-256, P-384, and P-521.
-* `secp256k1`: 
+* `secp256k1`:
   * This curve is specifically used in cryptocurrency applications like Bitcoin, Ethereum, and others. The specific curve and its implementations are chosen for their compatibility and performance benefits in blockchain-related operations.
   * Implementations often include specific optimizations such as the GLV endomorphism, which can speed up scalar multiplication. Additionally, implementations like libsecp256k1 include safeguards against side-channel attacks and provide efficient batch verification of signatures.
   * This curve is specifically used in cryptocurrency applications like Bitcoin, Ethereum, and others. The specific curve and its implementations are chosen for their compatibility and performance benefits in blockchain-related operations.
@@ -23,7 +23,7 @@ Elliptic Curve Cryptography (ECC) is a key-based technique for encrypting data. 
 
 ### Rivest-Shamir-Adleman (RSA)
 
-There are two broad components when it comes to RSA cryptography, they are: 
+There are two broad components when it comes to RSA cryptography, they are:
 
 * Key Generation for encrypting and decrypting the data to be exchanged.
 * Encryption/Decryption Function.
@@ -57,3 +57,7 @@ Symmetric encryption is a type of encryption key management solution where only 
 
 * [Streams and block ciphers](https://www.youtube.com/watch?v=7J2XbZNNF4A)
 * [Block Cipher Modes - CompTIA Security+ SY0-501 - 6.2](https://www.youtube.com/watch?v=6rE-KlhBlq4)
+
+## Programming Examples
+
+* [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)

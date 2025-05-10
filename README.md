@@ -2,32 +2,24 @@
 
 This repository is a collection of working examples and refereces to all things related to traditional system engineering practices and technologies.
 
-For other non-traditional system engineering practices and technologies, please refer to:
-
-* [Blockchain](https://github.com/paulwizviz/learn-blockchain)
-* [Artifical Intelligence](https://github.com/paulwizviz/learn-ai)
-
 The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 
 ## Working Examples
   
-* Application Programming Interfaces
-  * [Go GraphQL implementation](https://github.com/paulwizviz/graphql-template)
-* Cryptography and security
-  * [Go cryptographic programming](https://github.com/paulwizviz/go-crypto)
-  * [Go security programming](https://github.com/paulwizviz/go-security)
-* Networking
-  * [Go Network programming](https://github.com/paulwizviz/go-networking.git)
-* Serialization
-  * [Go serialization](https://github.com/paulwizviz/go-serialization.git)
+* [ValueLeap](https://github.com/paulwizviz/valueleap) - A microservices implementation based on a simulated e-commerce domain.
 
 ## Notes
 
 The following are references to notes collected by the contributors of this project.
 
+* Architectural Patterns
+  * [Artifical Intelligence](https://github.com/paulwizviz/learn-ai)
+  * [Blockchain](https://github.com/paulwizviz/learn-blockchain)
+  * [Clean Architecture and Domain Driven Design](https://github.com/paulwizviz/learn-clean-architecture)
+  * [Event Driven Architecture](./notes/eda.md)
+  * [Microservices](./notes/microsvcs.md)
 * [Container Technologies](./notes/container.md)
 * [Cryptography](./notes/crypto.md)
-* [Distributed Systems](https://github.com/paulwizviz/learn-distributed-system)
 * [Databases](./notes/databases.md)
 * [Data Serialization](./notes/serialization.md)
 * [Networking](./notes/networking.md)

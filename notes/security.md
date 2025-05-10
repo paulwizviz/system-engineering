@@ -16,14 +16,14 @@ In cryptography, a public key certificate, also known as a digital certificate o
 
 ### Procedure of obtaining Public Key certificate
 
-![From wiki](../assets/img/550px-PublicKeyCertificateDiagram_It.svg.png) 
+![From wiki](../assets/img/550px-PublicKeyCertificateDiagram_It.svg.png)
 [Copyright Wikipedia](https://en.wikipedia.org/wiki/Public_key_certificate)
 
 ### X.509 certificate
 
 An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate (see [Defintion from the TechTarget July 2020](https://www.techtarget.com/searchsecurity/definition/X509-certificate))
 
-X.509 common fields are: 
+X.509 common fields are:
 
 * Version – which X.509 version applies to the certificate (which indicates what data the certificate must include)
 * Serial number – the identity creating the certificate must assign it a serial number that distinguishes it from other certificates
@@ -36,7 +36,7 @@ X.509 common fields are:
 
 Certificate syntax ASN.1:
 
-```
+```text
     Certificate ::= SIGNED SEQUENCE{
            version [0]     Version DEFAULT v1988,
            serialNumber    CertificateSerialNumber,
@@ -66,7 +66,7 @@ Certificate syntax ASN.1:
 
 Certificate Revocation List syntax:
 
-```
+```text
     CertificateRevocationList ::= SIGNED SEQUENCE{
            signature       AlgorithmIdentifier,
            issuer          Name,
@@ -115,7 +115,10 @@ Source: [wiki](https://en.wikipedia.org/wiki/X.509)
 
 Source: [wiki](https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions) & [Professor Messer](https://www.youtube.com/watch?v=5T6MjlFsRWI)
 
-
 ## Data verification
 
-* [Checksum](https://www.techtarget.com/searchsecurity/definition/checksum)      
+* [Checksum](https://www.techtarget.com/searchsecurity/definition/checksum)
+
+## Programming Examples
+
+* [Go security programming](https://github.com/paulwizviz/go-security)

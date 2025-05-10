@@ -61,3 +61,7 @@ TOML is a minimal configuration file format that's easy to read due to obvious s
 A recursive acronym for “YAML Ain’t Markup Language” is a data serialization language based on a the use of indentation. It is intended to be human readable.
 
 * [Official documentation](https://yaml.org/spec/1.2.2/)
+
+## Programming Examples
+
+* [Go serialization](https://github.com/paulwizviz/go-serialization.git)
