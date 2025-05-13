@@ -6,7 +6,7 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 
 ## Working Examples
 
-* [LotteryStat] - A working example to demonstrate the use Goroutines and databases based on UK lottery results.
+* [LotteryStat](https://github.com/paulwizviz/lotterystat) - A working example to demonstrate the use Goroutines and databases based on UK lottery results.
 * [Narwhal](https://github.com/paulwizviz/narwhal) - An opoen source Go-based library that encapsulate Docker with features to support operations like `solidity compiler`, `grpc compiler`, etc.
 * [ValueLeap](https://github.com/paulwizviz/valueleap) - A microservices implementation based on a simulated e-commerce domain.
 
