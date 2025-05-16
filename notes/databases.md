@@ -1,6 +1,6 @@
 # Databases
 
-This section discusses all things related to database technologies 
+This section discusses all things related to database technologiess
 
 ## NoSQL
 

@@ -15,16 +15,15 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 The following are references to notes collected by the contributors of this project.
 
 * Architectural Patterns
-  * [Artifical Intelligence](https://github.com/paulwizviz/learn-ai)
-  * [Blockchain](https://github.com/paulwizviz/learn-blockchain)
   * [Clean Architecture and Domain Driven Design](https://github.com/paulwizviz/learn-clean-architecture)
   * [Event Driven Architecture](./notes/eda.md)
   * [Microservices](./notes/microsvcs.md)
-* [Container Technologies](./notes/container.md)
-* [Cryptography](./notes/crypto.md)
-* [Databases](./notes/databases.md)
-* [Data Serialization](./notes/serialization.md)
-* [Networking](./notes/networking.md)
+* Supporting Technologies
+  * [Container Technologies](./notes/container.md)
+  * [Cryptography](./notes/crypto.md)
+  * [Databases](./notes/databases.md)s
+  * [Data Serialization](./notes/serialization.md)
+  * [Networking](./notes/networking.md)
 
 ## Disclaimers
 
