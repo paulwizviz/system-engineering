@@ -19,7 +19,7 @@ Microservices are based on request/response communication pattern.
 * [gRPC](./grpc.md)
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
 * [GraphQL](./graphql.md)
-* [Security](./apisecure.md)
+* [Security](./secure.md)
 
 ## Monitoring and Logging
 

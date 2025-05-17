@@ -18,6 +18,50 @@ Key considerations are:
 
 * **Regular Testing and Monitoring:** Just like you'd regularly check your kitchen for dodgy food, you need to regularly test your APIs for security vulnerabilities and keep an eye on how they're being used to spot any suspicious activity.
 
+## Extermal vs Internal API
+
+These are the security considerations for external and internal APIs
+
+### External APIs (Public or Partner APIs)
+
+* **Audience:** Designed for consumption by developers outside the organisation. This could be the general public (open APIs like Google Maps) or specific business partners (partner APIs).
+* **Accessibility:** Accessible over the internet, often with self-service onboarding for developers (documentation, API keys, etc.). Partner APIs might require specific agreements and access controls.
+* **Purpose:**
+  * **Innovation:** Allows external developers to build new applications and integrations using the organisation's data or services.
+  * **Reach:** Extends the organisation's reach and brand.
+  * **Revenue:** Can be monetised directly or indirectly.
+  * **Partnerships:** Enables seamless integration and data exchange with trusted partners.
+* **Security:** Requires robust and well-defined security measures, including authentication, authorisation, rate limiting, and protection against external threats. Public APIs need careful consideration to avoid exposing sensitive internal data.
+* **Design & Documentation:** Needs to be well-documented, user-friendly, and often adheres to industry standards to attract and support external developers.
+* **Support & Maintenance:** Often requires dedicated support and ongoing maintenance to ensure stability and address issues for external consumers.
+* **Evolution:** Changes need to be carefully managed and communicated to avoid breaking external integrations. Versioning is crucial.
+
+### Internal APIs (Private APIs)
+
+* **Audience:** Designed for use within the organisation by its own development teams or internal systems.
+* **Accessibility:** Typically accessible only within the organisation's network or private cloud.
+* **Purpose:**
+  * **Integration:** Enables different internal systems and microservices to communicate and share data.
+  * **Efficiency:** Improves development speed and reduces redundancy by allowing teams to reuse internal software assets.
+  * **Standardisation:** Promotes consistent ways of accessing internal data and functionality.
+  * **Modernisation:** Facilitates the modernisation of legacy systems by providing a controlled interface.
+* **Security:** While still important, security focuses on controlling access within the organisation. Authentication and authorisation are crucial to ensure only authorised internal users and systems can access specific resources. Network security plays a significant role.
+* **Design & Documentation:** Documentation is still important for internal teams but might not need the same level of public-facing polish as external APIs. Design can be more tailored to internal needs.
+* **Support & Maintenance:** Support is typically handled internally between teams.
+* **Evolution:** Changes can be implemented more flexibly but still require coordination between internal teams that rely on the API.
+
+### Summary
+
+| Feature | External API | Internal API |
+| --- | --- | --- |
+| Audience | External developers, partners, public | Internal developers, systems |
+| Accessibility | Over the internet, often self-service | Within the organisation's network/private cloud |
+| Purpose | Innovation, reach, revenue, partnerships | Internal integration, efficiency, standardisation |
+| Security | Robust, focused on external threats | Focus on internal access control |
+| Design | User-friendly, well-documented, standards | Tailored to internal needs, documentation varies |
+| Support | Often requires dedicated external support | Internal support between teams |
+| Evolution | Careful versioning and communication needed | More flexible, but coordination still important |
+
 ## REST vs gRPC vs GraphQL
 
 * [REST](#rest-security)
