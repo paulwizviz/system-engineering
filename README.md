@@ -17,7 +17,7 @@ The following are references to notes collected by the contributors of this proj
 * Architectural Patterns
   * [Clean Architecture and Domain Driven Design](https://github.com/paulwizviz/learn-clean-architecture)
   * [Event Driven Architecture](./notes/eda.md)
-  * [Microservices](./notes/microsvcs.md)
+  * [Microservices](./notes/microservices/doc.md)
 * Supporting Technologies
   * [Container Technologies](./notes/container.md)
   * [Cryptography](./notes/crypto.md)

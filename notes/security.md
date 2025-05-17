@@ -25,13 +25,13 @@ An X.509 certificate is a digital certificate that uses the widely accepted inte
 
 X.509 common fields are:
 
-* Version – which X.509 version applies to the certificate (which indicates what data the certificate must include)
-* Serial number – the identity creating the certificate must assign it a serial number that distinguishes it from other certificates
-* Issuer name – the name of the entity issuing the certificate (usually a certificate authority)
-* Validity period of the certificate – start/end date and time
-* Subject distinguished name – the name of the identity the certificate is issued to
-* Subject public key information – the public key associated with the identity
-* Algorithm information – the algorithm used by the issuer to sign the certificate
+* **Version:** which X.509 version applies to the certificate (which indicates what data the certificate must include)
+* **Serial number:** the identity creating the certificate must assign it a serial number that distinguishes it from other certificates
+* **Issuer name:** the name of the entity issuing the certificate (usually a certificate authority)
+* **Validity period of the certificate:** start/end date and time
+* **Subject distinguished name:** the name of the identity the certificate is issued to
+* **Subject public key information:** the public key associated with the identity
+* **Algorithm information:** the algorithm used by the issuer to sign the certificate
 * Extensions (optional)
 
 Certificate syntax ASN.1:
@@ -84,34 +84,34 @@ Source: [wiki](https://en.wikipedia.org/wiki/X.509)
 
 ### Types of certificate
 
-* Root certificate - A public key certificate that identifies the root CA. It is used to issue other certificates.
-* Domain validation certificate - Owner of this certificate has control over a domain
-* Extended validation certificate - Contains additional information to verify the owner's identity
-* Subject Alternative Name (SAN) - This is an extension to X.509 certification which is used to support many different domains
-* Wildcard domain - Certificate based the name of the server
-* Internal certificate - Based on own CA
+* **Root certificate:** A public key certificate that identifies the root CA. It is used to issue other certificates.
+* **Domain validation certificate:** Owner of this certificate has control over a domain
+* **Extended validation certificate:** Contains additional information to verify the owner's identity
+* **Subject Alternative Name (SAN):** This is an extension to X.509 certification which is used to support many different domains
+* **Wildcard domain:** Certificate based the name of the server
+* **Internal certificate:** Based on own CA
 
 Source: [Professor Messer](https://www.youtube.com/watch?v=o5gAgmRjo6A)
 
-* TLS/SSL server certificate - use by server to present a digital certificate proving that it is the intended destination. The Subject field of the certificate must identify the primary host name of the server as the Common Name.
-* TLS/SSL client certificate - use by a TLS service to authenticate a client.
-* Email certificate - to ensure the integrity and encryption of email message.
-* Self-signed and root certificates.
-* EMV certificate - use to validate the authenticity of a payment card.
-* Code-signing certificate - to validate binaries.
-* Qualified certificate - use to identify an individual via electronic signature.
-* Role-base certificate - identify the role of a subscriber.
+* **TLS/SSL server certificate:** use by server to present a digital certificate proving that it is the intended destination. The Subject field of the certificate must identify the primary host name of the server as the Common Name.
+* **TLS/SSL client certificate:** use by a TLS service to authenticate a client.
+* **Email certificate:** to ensure the integrity and encryption of email message.
+* **Self-signed** and **root certificates**.
+* **EMV certificate:** use to validate the authenticity of a payment card.
+* **Code-signing certificate:** to validate binaries.
+* **Qualified certificate:** use to identify an individual via electronic signature.
+* **Role-base certificate:** identify the role of a subscriber.
 * Group certificate.
 
 Source: [wiki](https://en.wikipedia.org/wiki/X.509)
 
 ### Certificate filename extensions
 
-* .pem – ([Privacy-enhanced Electronic Mail](./pem.md)) Base64 encoded DER certificate, enclosed between "-----BEGIN CERTIFICATE-----" and "-----END CERTIFICATE-----"
-* .cer, .crt, .der – usually in binary DER form, but Base64-encoded certificates are common too (see .pem above)
-* .p7b, .p7c – PKCS#7 SignedData structure without data, just certificate(s) or CRL(s)
-* .p12 – PKCS#12, may contain certificate(s) (public) and private keys (password protected)
-* .pfx – PFX, predecessor of PKCS#12 (usually contains data in PKCS#12 format, e.g., with PFX files generated in IIS)
+* `.pem` – ([Privacy-enhanced Electronic Mail](./pem.md)) Base64 encoded DER certificate, enclosed between "-----BEGIN CERTIFICATE-----" and "-----END CERTIFICATE-----"
+* `.cer`, `.crt`, `.der` – usually in binary DER form, but Base64-encoded certificates are common too (see .pem above)
+* `.p7b`, `.p7c` – PKCS#7 SignedData structure without data, just certificate(s) or CRL(s)
+* `.p12` – PKCS#12, may contain certificate(s) (public) and private keys (password protected)
+* `.pfx` – PFX, predecessor of PKCS#12 (usually contains data in PKCS#12 format, e.g., with PFX files generated in IIS)
 
 Source: [wiki](https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions) & [Professor Messer](https://www.youtube.com/watch?v=5T6MjlFsRWI)
 

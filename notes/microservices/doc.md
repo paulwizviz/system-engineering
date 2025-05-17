@@ -13,12 +13,13 @@ Microservices are based on request/response communication pattern.
 * **Autonomous**: Each service can be developed, deployed, operated, and scaled independently.
 * **Designed for Business Capabilities**: Services are organized around business functions.
 
-## API Patterns
+## API Communication Patterns
 
 * [REST](./rest.md)
 * [gRPC](./grpc.md)
 * [MQTT](https://github.com/paulwizviz/learn-mqtt)
 * [GraphQL](./graphql.md)
+* [Security](./apisecure.md)
 
 ## Monitoring and Logging
 
