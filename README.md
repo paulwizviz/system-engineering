@@ -21,7 +21,7 @@ The following are references to notes collected by the contributors of this proj
 * Supporting Technologies
   * [Container Technologies](./notes/container.md)
   * [Cryptography](./notes/crypto.md)
-  * [Databases](./notes/databases.md)s
+  * [Databases](./notes/databases.md)
   * [Data Serialization](./notes/serialization.md)
   * [Networking](./notes/networking.md)
 
