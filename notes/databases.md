@@ -23,3 +23,5 @@ This section discusses all things related to database technologiess
   * [Introduction to SQL](https://www.w3schools.com/sql/sql_intro.asp)
 * Technologies
   * [Postgres DB](https://github.com/paulwizviz/learn-postgres)
+* Programming
+  * [Go SQL](https://github.com/paulwizviz/go-sql.git)
