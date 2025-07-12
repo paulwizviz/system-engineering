@@ -1,27 +1,11 @@
 # Databases
 
-This section discusses all things related to database technologiess
+* [SQL Databases](https://github.com/paulwizviz/learn-sql)
+* [NoSQL](#nosql)
 
 ## NoSQL
 
-* Concepts
-  * [What is NoSQL?](https://www.mongodb.com/resources/basics/databases/nosql-explained)
-* Technologies
-  * [Elastic Search](https://github.com/paulwizviz/learn-elastic)
-  * [Influx DB](https://github.com/paulwizviz/learn-influx)
+[What is NoSQL?](https://www.mongodb.com/resources/basics/databases/nosql-explained)
 
-## Time Series DB
-
-* Concept
-  * [Time Series Databases Explained](https://www.influxdata.com/time-series-database/)
-* Technologies
-  * [InfluxDB](https://github.com/paulwizviz/learn-influx)
-
-## SQL Databases
-
-* Concepts
-  * [Introduction to SQL](https://www.w3schools.com/sql/sql_intro.asp)
-* Technologies
-  * [Postgres DB](https://github.com/paulwizviz/learn-postgres)
-* Programming
-  * [Go SQL](https://github.com/paulwizviz/go-sql.git)
+* [Elastic Search](https://github.com/paulwizviz/learn-elastic.git)
+* [Time Series DB](https://github.com/paulwizviz/learn-timeseries.git)
