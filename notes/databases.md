@@ -5,7 +5,6 @@
 
 ## NoSQL
 
-[What is NoSQL?](https://www.mongodb.com/resources/basics/databases/nosql-explained)
-
+* [Key Value Store](https://github.com/paulwizviz/learn-keyvaluedb.git)
 * [Elastic Search](https://github.com/paulwizviz/learn-elastic.git)
-* [Time Series DB](https://github.com/paulwizviz/learn-timeseries.git)
+* [Time series db](https://github.com/paulwizviz/learn-timeseries.git)
