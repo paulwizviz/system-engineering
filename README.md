@@ -10,20 +10,14 @@ The artefacts were drawn from these [CONTRIBUTORS](./CONTRIBUTORS).
 * [Narwhal](https://github.com/paulwizviz/narwhal) - An opoen source Go-based library that encapsulate Docker with features to support operations like `solidity compiler`, `grpc compiler`, etc.
 * [ValueLeap](https://github.com/paulwizviz/valueleap) - A microservices implementation based on a simulated e-commerce domain.
 
-## Notes
+## Topics
 
-The following are references to notes collected by the contributors of this project.
-
-* Architectural Patterns
-  * [Clean Architecture and Domain Driven Design](https://github.com/paulwizviz/learn-clean-architecture)
-  * [Event Driven Architecture](./notes/eda.md)
-  * [Microservices](./notes/microservices/doc.md)
-* Supporting Technologies
-  * [Container Technologies](./notes/container.md)
-  * [Cryptography](./notes/crypto.md)
-  * [Databases](./notes/databases.md)
-  * [Data Serialization](./notes/serialization.md)
-  * [Networking](./notes/networking.md)
+* [Architectural Patterns](https://github.com/paulwizviz/learn-architecture-pattern)
+* [Container Technologies](./notes/container.md)
+* [Cryptography](./notes/crypto.md)
+* [Databases](./notes/databases.md)
+* [Data Serialization](./notes/serialization.md)
+* [Networking](./notes/networking.md)
 
 ## Disclaimers
 
