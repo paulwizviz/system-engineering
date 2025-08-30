@@ -12,7 +12,8 @@ Please refer to the [CONTRIBUTORS](./CONTRIBUTORS) file for a list of contributo
 
 ## Topics
 
-* [Architectural Patterns](https://github.com/paulwizviz/learn-architecture-pattern)
+* Architectural Patterns
+  * [Microservices](https://github.com/paulwizviz/learn-microservices)
 * [Application Programming Interface](./notes/api.md)
 * [Container Technologies](./notes/container.md)
 * [Cryptography](./notes/crypto.md)
