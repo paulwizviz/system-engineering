@@ -6,10 +6,6 @@ Please refer to the [CONTRIBUTORS](./CONTRIBUTORS) file for a list of contributo
 
 ## Working Examples
 
-* [LotteryStat](https://github.com/paulwizviz/lotterystat) - A working example to demonstrate the use Goroutines and databases based on UK lottery results.
-* [Narwhal](https://github.com/paulwizviz/narwhal) - An opoen source Go-based library that encapsulate Docker with features to support operations like `solidity compiler`, `grpc compiler`, etc.
-* [ValueLeap](https://github.com/paulwizviz/valueleap) - A microservices implementation based on a simulated e-commerce domain.
-
 ## Topics
 
 * Architectural Patterns
@@ -19,7 +15,9 @@ Please refer to the [CONTRIBUTORS](./CONTRIBUTORS) file for a list of contributo
 * [Cryptography](./notes/crypto.md)
 * [Databases](./notes/databases.md)
 * [Data Serialization](./notes/serialization.md)
-* [Networking](./notes/networking.md)
+* Networking
+  * [Computer Networking](./notes/networking_computer.md)
+  * [Internet of Things](./notes/networking_iot.md)
 * [Observability](./notes/observability.md)
 
 ## Disclaimers
