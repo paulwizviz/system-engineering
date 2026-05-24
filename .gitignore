@@ -2,3 +2,6 @@
 
 # Drawio backup type
 *.drawio.bkp
+
+# Antigravity
+.antigravitycli
